@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Alaska/Documents/escola/_S2/2_P1/exercicios/_quinta_pedagogica/quinta_pedagogica/main.c
+stdio.h
+-
+string.h
+-
+locale.h
+-
+

@@ -1,0 +1,3 @@
+C:/Users/Alaska/Documents/escola/_S2/2_P1/exercicios/_quinta_pedagogica/quinta_pedagogica/cmake-build-debug/CMakeFiles/quinta_pedagogica.dir
+C:/Users/Alaska/Documents/escola/_S2/2_P1/exercicios/_quinta_pedagogica/quinta_pedagogica/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alaska/Documents/escola/_S2/2_P1/exercicios/_quinta_pedagogica/quinta_pedagogica/cmake-build-debug/CMakeFiles/rebuild_cache.dir

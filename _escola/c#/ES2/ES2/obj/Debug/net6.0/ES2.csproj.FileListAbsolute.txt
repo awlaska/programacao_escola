@@ -1,0 +1,15 @@
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\bin\Debug\net6.0\ES2.exe
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\bin\Debug\net6.0\ES2.deps.json
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\bin\Debug\net6.0\ES2.runtimeconfig.json
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\bin\Debug\net6.0\ES2.dll
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\bin\Debug\net6.0\ES2.pdb
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ES2.csproj.AssemblyReference.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ES2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ES2.AssemblyInfoInputs.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ES2.AssemblyInfo.cs
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ES2.csproj.CoreCompileInputs.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ES2.dll
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\refint\ES2.dll
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ES2.pdb
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ES2.genruntimeconfig.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\ES2\obj\Debug\net6.0\ref\ES2.dll

@@ -1,0 +1,16 @@
+!!Aula 1!!
+
+Ficheiros de texto e ficheiros binários:
+-Estruturas apenas gravam em memoria (quando reniciarmos o programa nao ficam guardados)
+-Ficheiros armazenam permanentemente (enquanto o ficheiro existir)
+-Ficheiros:
+	-Texto- coloca em texto formatado por nós;
+	-Binarios- coloca o correspondente em ASCII;
+
+-!!Ficheiros de texto!!:
+-Armazenar informação:
+	1º- Abrir o ficheiro;
+	2º- Ler/Escrever dados;
+	3º- Fechar o ficheiro;
+**Exemplos feitos na pasta: Aula_1**
+-EOF: End Of File (ultimo carater do ficheiro)

@@ -1,0 +1,14 @@
+21 23 r Luis
+23 2 d ana
+25 34 r maria
+27 12 a rui
+29 23 x bruno
+31 12 c viana
+33 45 y Pedro
+35 23345 h Luisa
+37 33444 g Porto
+39 1 d braga
+41 23 t vitor
+43 384848484 r Lisboa
+45 234 L faro
+

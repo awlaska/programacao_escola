@@ -1,0 +1,4 @@
+variaveis das classes começam com _
+
+microsoft c# conventions
+

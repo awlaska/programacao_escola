@@ -1,0 +1,15 @@
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\bin\Debug\net6.0\PWMosh.exe
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\bin\Debug\net6.0\PWMosh.deps.json
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\bin\Debug\net6.0\PWMosh.runtimeconfig.json
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\bin\Debug\net6.0\PWMosh.dll
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\bin\Debug\net6.0\PWMosh.pdb
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\PWMosh.csproj.AssemblyReference.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\PWMosh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\PWMosh.AssemblyInfoInputs.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\PWMosh.AssemblyInfo.cs
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\PWMosh.csproj.CoreCompileInputs.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\PWMosh.dll
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\refint\PWMosh.dll
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\PWMosh.pdb
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\PWMosh.genruntimeconfig.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\PWMosh\PWMosh\obj\Debug\net6.0\ref\PWMosh.dll

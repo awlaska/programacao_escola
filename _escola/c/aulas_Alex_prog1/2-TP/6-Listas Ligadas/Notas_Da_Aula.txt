@@ -1,0 +1,22 @@
+!!Alocação dinâmica de memória!!
+(poupar memória de acordo com as necessidades do dispositivo)
+
+	->4 funções diferentes<-
+	(todas dentro do stdlib.h)
+->malloc();-> memory allocation
+->calloc();-> igual ao malloc mas em vez de multiplicar quantidade por tamanho, separa quantidade e tamanho
+->realloc();-> realocar memoria -> caso seja preciso mais memoria, realocamos
+->free();-> libertar memória
+
+para saber o tamanho necessário usa-se sizeof()
+
+malloc(quantidade*sizeof(tipoVAR))::
+
+tipoVAR *apontador=NULL;
+apontador=(tipoVAR *) malloc(n *sizeof(tipoVAR));
+
+**LIBERTAR SEMPRE A MEMORIA NO FINAL**
+->free(apontador);
+
+
+realloc(apontador, quantidade*sizeof(tipoVAR))

@@ -1,0 +1,3 @@
+Função recursiva:
+-Invoca-se a ela própria;
+-

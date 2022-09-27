@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula2_sor/Aula2_sor.iml" filepath="$PROJECT_DIR$/Aula2_sor/Aula2_sor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_21_10_29_1_2/aula_21_10_29_1_2.iml" filepath="$PROJECT_DIR$/aula_21_10_29_1_2/aula_21_10_29_1_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_21_10_29_4_5/aula_21_10_29_4_5.iml" filepath="$PROJECT_DIR$/aula_21_10_29_4_5/aula_21_10_29_4_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_22_09_20_TP/aula_22_09_20_TP.iml" filepath="$PROJECT_DIR$/aula_22_09_20_TP/aula_22_09_20_TP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_sor/aula_sor.iml" filepath="$PROJECT_DIR$/aula_sor/aula_sor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio_1/exercicio_1.iml" filepath="$PROJECT_DIR$/exercicio_1/exercicio_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/folha1_1_2/folha1_1_2.iml" filepath="$PROJECT_DIR$/folha1_1_2/folha1_1_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/folha_1_3/folha_1_3.iml" filepath="$PROJECT_DIR$/folha_1_3/folha_1_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tpc_tp_22_09_20/tpc_tp_22_09_20.iml" filepath="$PROJECT_DIR$/tpc_tp_22_09_20/tpc_tp_22_09_20.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\BirdWatcher\obj\Debug\net6.0\BirdWatcher.csproj.AssemblyReference.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\BirdWatcher\obj\Debug\net6.0\BirdWatcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\BirdWatcher\obj\Debug\net6.0\BirdWatcher.AssemblyInfoInputs.cache
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\BirdWatcher\obj\Debug\net6.0\BirdWatcher.AssemblyInfo.cs
+C:\Users\Alaska\Documents\escola\programacao\_escola\c#\ES2\BirdWatcher\obj\Debug\net6.0\BirdWatcher.csproj.CoreCompileInputs.cache

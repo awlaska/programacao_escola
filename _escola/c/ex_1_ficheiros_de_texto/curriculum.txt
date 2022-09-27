@@ -1,0 +1,9 @@
+Nome:
+-Alexandre
+Número:
+-24585
+Curso:
+-Engenharia Informática
+Disciplinas e nota:
+-AED- 10
+-ASC- 14

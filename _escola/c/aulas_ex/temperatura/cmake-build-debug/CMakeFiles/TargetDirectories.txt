@@ -1,0 +1,3 @@
+C:/Users/Alaska/CLionProjects/temperatura/cmake-build-debug/CMakeFiles/temperatura.dir
+C:/Users/Alaska/CLionProjects/temperatura/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alaska/CLionProjects/temperatura/cmake-build-debug/CMakeFiles/rebuild_cache.dir
