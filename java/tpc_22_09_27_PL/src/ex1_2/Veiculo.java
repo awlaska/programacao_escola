@@ -2,7 +2,7 @@ package ex1_2;
 
 import java.util.Scanner;
 
-public class Veículo {
+public class Veiculo {
     Scanner input = new Scanner(System.in);
 
     // a. Dois Atributos de acesso privado: ‘Marca’ e ‘Modelo’ do tipo String;
@@ -15,11 +15,11 @@ public class Veículo {
     private Double PrecoInicial;
 
     // d. Um construtor de instâncias da classe, sem argumentos;
-    Veículo(){}
+    Veiculo(){}
 
     // e. Um construtor de instâncias da classe que recebe por argumento a
-    // Marca, o Modelo e o Ano de Lançamento do Veículo;
-    Veículo(String marca, String modelo, int anoDeLancamento){
+    // Marca, o Modelo e o Ano de Lançamento do Veiculo;
+    Veiculo(String marca, String modelo, int anoDeLancamento){
         this.Marca = marca;
         this.Modelo = modelo;
         this.AnoDeLancamento = anoDeLancamento;
@@ -58,15 +58,15 @@ public class Veículo {
         PrecoInicial = precoInicial;
     }
 
-    // g. Defina o método toString(), de modo a que este apresente a informação do veículo;
+    // g. Defina o método toString(), de modo a que este apresente a informação do Veiculo;
     @Override
     public String toString() {
         return ("O carro da marca " + this.Marca + " e modelo " + this.Modelo + " foi lançado no ano de "
         + this.AnoDeLancamento + " e vende-se por " + this.PrecoInicial + " euros.");
     }
 
-    // h. Assumindo que o preço do veículo desce, anualmente, 3% do valor inicial,
-    // crie o método getPrecoVeiculo(int ano), que devolve o preço do veículo
+    // h. Assumindo que o preço do Veiculo desce, anualmente, 3% do valor inicial,
+    // crie o método getPrecoVeiculo(int ano), que devolve o preço do Veiculo
     // no ano identificado por argumento. O ano passado por argumento deve
     // ser superior ao ano de lançamento.
     public Double getPrecoVeiculo(int ano){
