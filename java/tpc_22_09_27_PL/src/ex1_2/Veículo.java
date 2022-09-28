@@ -1,6 +1,10 @@
 package ex1_2;
 
+import java.util.Scanner;
+
 public class Veículo {
+    Scanner input = new Scanner(System.in);
+
     // a. Dois Atributos de acesso privado: ‘Marca’ e ‘Modelo’ do tipo String;
     private String Marca, Modelo;
 
@@ -57,12 +61,20 @@ public class Veículo {
     // g. Defina o método toString(), de modo a que este apresente a informação do veículo;
     @Override
     public String toString() {
-
+        return ("O carro da marca " + this.Marca + " e modelo " + this.Modelo + " foi lançado no ano de "
+        + this.AnoDeLancamento + " e vende-se por " + this.PrecoInicial + " euros.");
     }
-
 
     // h. Assumindo que o preço do veículo desce, anualmente, 3% do valor inicial,
     // crie o método getPrecoVeiculo(int ano), que devolve o preço do veículo
     // no ano identificado por argumento. O ano passado por argumento deve
     // ser superior ao ano de lançamento.
+    public Double getPrecoVeiculo(int ano){
+        ano = AnoDeLancamento;
+        while(ano < AnoDeLancamento){
+            System.out.print("Insira o ano atual: ");
+            ano = input.nextInt();
+        }
+        return (this.PrecoInicial - (this.PrecoInicial * 0.03 * ano));
+    }
 }

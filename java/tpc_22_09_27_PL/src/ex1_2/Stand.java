@@ -1,9 +1,15 @@
 package ex1_2;
 
 public class Stand {
-    // a. Umarray,‘veiculos’,dotipoVeículo(codificadonoexercícioanterior);
+    // a. Um array,‘veiculos’,dotipo Veículo(codificadonoexercícioanterior);
+    Veículo veiculos[] = new Veículo[];
+
     // b. Um construtor de instâncias da classe, sem argumentos, que inicializa o
     // array para 50 valores;
+    public static void Stand(){
+        veículos[].length = 50;
+    }
+
     // c. Os métodos Getter e Setter para o array;
     // d. Ométodo adicionarVeiculo(…)que recebeumVeículo e acrescenta-oao
     // array;
