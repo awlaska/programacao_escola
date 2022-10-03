@@ -1,4 +1,6 @@
-public class Main {
+package ex1_2;
+
+public class main {
     public void main(String args[]) {
         // 1
         Retangulo r = new Retangulo(2, 3);

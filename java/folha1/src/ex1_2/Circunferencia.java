@@ -1,4 +1,4 @@
-import java.lang.Math.*;
+package ex1_2;
 
 public class Circunferencia {
     //a) Uma variável de instância de acesso privado, raio, com tipo double, e com valor 1 por defeito.

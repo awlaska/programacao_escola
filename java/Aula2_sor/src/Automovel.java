@@ -13,8 +13,7 @@ public class Automovel{
         this.marca = marca;
     }
 
-        public Automovel(String marca, String cor, String cilindrada) {
-        }
+    public Automovel(String marca, String cor, String cilindrada) {}
 
         public String getMarca() {
         return marca;
@@ -46,7 +45,7 @@ public class Automovel{
                 "e tem cilindrada " + this.setCilindrada();
     }
 
-    private String setCilindrada() {
+    private float setCilindrada() {
         return this.cilindrada;
     }
 }

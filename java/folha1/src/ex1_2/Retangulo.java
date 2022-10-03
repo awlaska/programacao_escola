@@ -1,27 +1,16 @@
-import static sun.swing.SwingUtilities2.drawRect;
-import java.util.Scanner;
+package ex1_2;
 
 public class Retangulo {
     // 1.a) Dois atributos de acesso privado, largura e altura, com tipo double, e com valor 1 por defeito.
-    private double largura;
-    private double altura;
+    private double largura = 1;
+    private double altura = 1;
 
     // 1.b) Um atributo privado de tipo String, cor, com valor “Branco” por defeito.
     private String cor = "Branco";
 
     // 1.c) Um construtor de instâncias da classe, sem argumentos,
     // que cria um retângulo padrão (com valores por defeito).
-    public void Retangulo(){
-        largura = 20;
-        altura = 10;
-
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Insira a largura: ");
-        int largura = Integer.parseInt(input.nextLine());
-        System.out.println("Insira a altura: ");
-        int altura = Integer.parseInt(input.nextLine());
-    };
+    public void Retangulo(){};
 
     // 1.d) Um construtor de instâncias da classe que recebe por parâmetro a largura e altura do retângulo a criar.
     public Retangulo(double largura, double altura){
