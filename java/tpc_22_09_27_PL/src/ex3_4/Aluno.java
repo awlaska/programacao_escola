@@ -101,9 +101,19 @@ public class Aluno {
                 break;
             }
         }
-
         return media;
     }
 
     // j. O método obterMelhorNota(…) que devolve a melhor nota do aluno.
+    public Double obterMelhorNota(){
+        Double melhorNota = 0.0;
+
+        for (int j = 0 ; j <=Notas.length; j++) {
+            if (Notas[j] > melhorNota) {
+                melhorNota = Notas[j];
+                break;
+            }
+        }
+        return melhorNota;
+    }
 }
