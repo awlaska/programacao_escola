@@ -3,8 +3,8 @@ package herancas;
 public class main {
         public static void main(String[] args) {
                 Fig2D fig1, fig2;
-                fig1 = new Retangulo();
 
+                fig1 = new Retangulo();
                 if(fig1 instanceof Retangulo){
                         ((Retangulo)fig1).setLado1(5);
                         ((Retangulo)fig1).setLado2(3);

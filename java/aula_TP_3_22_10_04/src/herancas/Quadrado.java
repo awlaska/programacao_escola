@@ -9,13 +9,12 @@ public class Quadrado extends Retangulo {
     }
 
     @Override
-    public void setLado1(float lado1){
-        super.setLado1(lado1);
-        super.setLado2(lado1);
+    public void setLado1(float lado){
+        super.setLado1(lado);
+        super.setLado2(lado);
     }
 
-    public void setLado2(float lado2){
-        this.setLado1(lado2);
+    public void setLado2(float lado){
+        this.setLado1(lado);
     }
-
 }
