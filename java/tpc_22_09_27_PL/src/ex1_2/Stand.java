@@ -1,8 +1,6 @@
 package ex1_2;
 
-import java.util.Arrays;
 import java.util.Objects;
-import java.util.Scanner;
 
 public class Stand {
     // a. Um array,‘veiculos’, do tipo Veículo (codificado no exercício anterior);
@@ -23,12 +21,8 @@ public class Stand {
     }
 
     // d. O método adicionarVeiculo(…)que recebe um Veículo e acrescenta-o ao array;
-    public static void adicionarVeiculo(String marca, String modelo, int ano, double preco){
-        Veiculo veicul = new Veiculo();
-        veicul.setMarca(marca);
-        veicul.setModelo(modelo);
-        veicul.setAnoDeLancamento(ano);
-        veicul.setPrecoInicial(preco);
+    public static void adicionarVeiculo(Veiculo veiculo){
+        Veiculo veicul = veiculo;
     }
 
     // e. O método obterVeiculo(…) que recebe o Modelo do Veículo e devolve esse veículo;

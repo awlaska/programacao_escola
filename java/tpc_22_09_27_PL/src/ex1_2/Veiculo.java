@@ -6,16 +6,16 @@ public class Veiculo {
     Scanner input = new Scanner(System.in);
 
     // a. Dois Atributos de acesso privado: ‘Marca’ e ‘Modelo’ do tipo String;
-    private static String Marca, Modelo;
+    private static String Marca = "", Modelo = "";
 
     // b. Um atributo de acesso privado: ‘Ano de Lançamento’ do tipo Int;
-    private static int AnoDeLancamento;
+    private static int AnoDeLancamento = 0;
 
     // c. Um atributo de acesso privado: ‘Preço Inicial’ do tipo Double;
-    private static Double PrecoInicial;
+    private static Double PrecoInicial = 0.0;
 
     // d. Um construtor de instâncias da classe, sem argumentos;
-    Veiculo(){}
+    public Veiculo(){}
 
     // e. Um construtor de instâncias da classe que recebe por argumento a
     // Marca, o Modelo e o Ano de Lançamento do Veiculo;
@@ -66,11 +66,16 @@ public class Veiculo {
     }
 
     // h. Assumindo que o preço do Veiculo desce, anualmente, 3% do valor inicial,
-    // crie o método getPrecoVeiculo(int ano), que devolve o preço do Veiculo
-    // no ano identificado por argumento. O ano passado por argumento deve
-    // ser superior ao ano de lançamento.
+    // crie o método getPrecoVeiculo(int ano),
+    // que devolve o preço do Veiculo no ano identificado por argumento.
+    // O ano passado por argumento deve ser superior ao ano de lançamento.
     public Double getPrecoVeiculo(int ano){
         int anoL = this.getAnoDeLancamento();
-        return (this.PrecoInicial - (this.PrecoInicial * 0.03 * (ano-anoL)));
+
+        if(!(anoL >= this.getAnoDeLancamento())){
+            return -1.0;
+        }else{
+            return (this.PrecoInicial - (this.PrecoInicial * 0.03 * (ano-anoL)));
+        }
     }
 }
