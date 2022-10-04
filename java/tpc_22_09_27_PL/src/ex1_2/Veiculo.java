@@ -74,7 +74,7 @@ public class Veiculo {
 
         if(!(anoL >= this.getAnoDeLancamento())){
             return -1.0;
-        }else{
+        } else{
             return (this.PrecoInicial - (this.PrecoInicial * 0.03 * (ano-anoL)));
         }
     }
