@@ -59,8 +59,7 @@ public class Veiculo {
     }
 
     // g. Defina o método toString(), de modo a que este apresente a informação do Veiculo;
-    @Override
-    public String toString() {
+    public String toString(Veiculo[] veiculo) {
         return ("O carro da marca " + this.Marca + " e modelo " + this.Modelo + " foi lançado no ano de "
                 + this.AnoDeLancamento + " e vende-se por " + this.PrecoInicial + " euros.");
     }

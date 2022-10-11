@@ -4,11 +4,11 @@ import java.util.Objects;
 
 public class Stand {
     // a. Um array,‘veiculos’, do tipo Veículo (codificado no exercício anterior);
-    static Veiculo[] veiculos;
+    private Veiculo[] veiculos;
 
     // b. Um construtor de instâncias da classe, sem argumentos, que inicializa o array para 50 valores;
     public Stand(){
-        veiculos = new Veiculo[50];
+        this.veiculos = new Veiculo[50];
     }
 
     // c. Os métodos Getter e Setter para o array;
@@ -21,31 +21,41 @@ public class Stand {
     }
 
     // d. O método adicionarVeiculo(…)que recebe um Veículo e acrescenta-o ao array;
-    public static void adicionarVeiculo(Veiculo veiculo){
-        Veiculo veicul = veiculo;
+    public void adicionarVeiculo(Veiculo veiculo){
+        for(int i = 0; i < 50; i++){
+            if(this.veiculos[i] == null){
+                this.veiculos[i] = veiculo;
+                return;
+            }
+        }
     }
 
     // e. O método obterVeiculo(…) que recebe o Modelo do Veículo e devolve esse veículo;
-    public static Veiculo obterVeiculo(String modelo){
+    public String obterVeiculo(String modelo){
         int i = 0;
-
-        while(!Objects.equals(modelo, veiculos[i].getModelo())){
-            i++;
+        for(i = 0; i < 50; i++){
+            if (this.veiculos[i].getModelo() == modelo){
+                ;
+            }
         }
-
-        System.out.println(veiculos[i].getMarca());
-        return veiculos[i];
+        return veiculos[i].toString();
     }
 
     // f. O método obterQuantidadeVeiculos(…) que devolve a quantidade de veículo existentes no stand;
-    public static int obterQuantidadeVeiculos(){
-        int i = veiculos.length;
-        return i;
+    public int obterQuantidadeVeiculos(){
+        return veiculos.length;
     }
 
     // g. O método listarVeiculos(…) que lista todos os veículos de uma dada marca.
     // Se não existir nenhum veículo da marca,
     // deverá apresentar a mensagem “O stand não possui veículos da marca «marca»”,
     // onde «marca» deve ser substituída pela marca passada por argumento.
+    public void listarVeiculos(String marca){
+        for(int i = 0; i < veiculos.length; i++){
+            if(veiculos[i].getMarca().equals(marca)){
+                System.out.println(toString());
+            }
+        }
+    }
 
 }
