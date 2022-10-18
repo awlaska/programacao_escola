@@ -13,7 +13,7 @@ public class Aluno {
     private Double[] Notas = new Double[5];
 
     // d. Um construtor de instâncias da classe, sem argumentos;
-    Aluno(){}
+    public Aluno(){}
 
     // e. Um construtor de instâncias da classe que recebe por argumento informação para todos os atributos,
     // exceto o array notas;
@@ -26,7 +26,6 @@ public class Aluno {
     }
 
     // f. Os métodos Getter e Setter para os atributos;
-
     public String getNome() {
         return Nome;
     }
@@ -77,13 +76,12 @@ public class Aluno {
 
     // g. O método toString(), de modo a que este apresente a informação do aluno;
     public String toString(){
-        return ("O aluno " + getNome() + " da cidade " + getCidade() + " com o email " + getEmail() + " com a idade " +
-                getIdade() + " e o nu'mero de cartao " + getNumeroCartao());
+        return ("O aluno " + this.Nome + " da cidade " + this.Cidade + " com o email " + this.email + " com a idade " +
+                this.Idade + " e o nu'mero de cartao " + this.NumeroCartao);
     }
 
     // h. O método addNota(…), que adiciona uma nota ao aluno;
     public void addNota(Double nota){
-        int firstFree = -1;
         for (int j = 0 ; j <=Notas.length; j++) {
             if (Notas[j] == null) {
                 this.Notas[j] = nota;
@@ -91,10 +89,10 @@ public class Aluno {
             }
         }
     }
+
     // i. O método obterMedia(…) que calcula e devolve a média das notas do aluno.
     public Double obterMedia(){
         Double media = 0.0;
-
         for (int j = 0 ; j <=Notas.length; j++) {
             if (Notas[j] != null) {
                 media = (media * (j + 1) + (Notas[j]))/(j + 2);
