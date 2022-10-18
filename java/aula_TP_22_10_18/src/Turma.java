@@ -5,22 +5,17 @@ import java.util.Set;
 public class Turma {
     private String  codigo;
     private Disciplina disc;
+    private String designacao;
     private Set<Inscricao> inscritos;
-    // private List<Inscricao> inscritos;
-    // private Map<Aluno, Date> inscritos;
 
-    public Turma(){
+    public Turma(String designacao){
+        this.designacao = designacao;
         this.inscritos = new HashSet<>();
-        // inscritos = new ArrayList<>();
-        // inscritos = new HashMap<>();
     }
-
-    // Collection<Integer> x;
-    // c = new HashSet<>();
-    // c = new HashLink<>();
-
-    // List<Integer> c;
-    // Collection<Integer> x; -> error
-    // c = new LinkedList<>();
-    // c = new ArrayList<>();
+    public void inscrever(String nome, Turma turma){
+        Inscricao insc = new Inscricao();
+        insc.setNomeAluno(nome);
+        insc.setTurma(this);
+        this.inscritos.add(insc);
+    }
 }
