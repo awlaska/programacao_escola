@@ -1,3 +1,4 @@
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,4 +14,13 @@ public class Turma {
         // inscritos = new ArrayList<>();
         // inscritos = new HashMap<>();
     }
+
+    // Collection<Integer> x;
+    // c = new HashSet<>();
+    // c = new HashLink<>();
+
+    // List<Integer> c;
+    // Collection<Integer> x; -> error
+    // c = new LinkedList<>();
+    // c = new ArrayList<>();
 }
