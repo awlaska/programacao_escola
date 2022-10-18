@@ -64,5 +64,12 @@ public class main {
         System.out.println(charMap);
         charMap.put(4, 'Y');
         System.out.println(charMap);
+        //
+        System.out.println(charMap.get(3));
+        for(Character i : charMap.values()){
+            if(charMap.get(i).equals('A')){
+                System.out.println(i);
+            }
+        }
     }
 }
