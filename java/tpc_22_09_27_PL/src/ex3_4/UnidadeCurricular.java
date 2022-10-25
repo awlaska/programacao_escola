@@ -42,12 +42,27 @@ public class UnidadeCurricular {
     // f. O método listarAlunos() que lista a informação de todos os alunos da turma, a sua média e a sua melhor nota.
     public String listarAlunos(){
         for(Aluno aluno : alunos){
-            return alunos.toString() + " tem como média " + Double.toString(Aluno.obterMedia()) +
-                    " e melhor nota " +  Double.toString(Aluno.obterMelhorNota());
+            return alunos.toString() + " tem como média " + Double.toString(aluno.obterMedia()) +
+                    " e melhor nota " +  Double.toString(aluno.obterMelhorNota());
         }
         return "Nao tem alunos.";
     }
 
     // g. O método obterAlunoMelhorMedia() que calcula as médias dos alunos e devolve o aluno com melhor a média.
     // Se existirem alunos com a mesma média, devolver o aluno com o número de cartão mais baixo.
+    public String obterAlunoMelhorMedia(){
+        Double media = 0.0;
+        int cartao = 999999999;
+        for(Aluno aluno : alunos){
+            if(aluno.obterMedia() > media){
+                media = aluno.obterMedia();
+                cartao = aluno.getNumeroCartao();
+            } else if(aluno.obterMedia().equals(media)){
+                if(aluno.getNumeroCartao() < cartao){
+                    cartao = aluno.getNumeroCartao();
+                }
+            }
+        }
+        return alunos.toString();
+    }
 }

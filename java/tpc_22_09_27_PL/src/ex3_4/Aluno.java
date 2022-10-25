@@ -75,6 +75,7 @@ public class Aluno {
     }
 
     // g. O método toString(), de modo a que este apresente a informação do aluno;
+    @Override
     public String toString(){
         return ("O aluno " + this.Nome + " da cidade " + this.Cidade + " com o email " + this.email + " com a idade " +
                 this.Idade + " e o nu'mero de cartao " + this.NumeroCartao);
@@ -82,10 +83,10 @@ public class Aluno {
 
     // h. O método addNota(…), que adiciona uma nota ao aluno;
     public void addNota(Double nota){
-        for (int j = 0 ; j <=Notas.length; j++) {
-            if (Notas[j] == null) {
+        for (int j = 0; j < Notas.length; j++) {
+            if (Notas[j] == 0) {
                 this.Notas[j] = nota;
-                break;
+                return;
             }
         }
     }
@@ -93,8 +94,8 @@ public class Aluno {
     // i. O método obterMedia(…) que calcula e devolve a média das notas do aluno.
     public Double obterMedia(){
         Double media = 0.0;
-        for (int j = 0 ; j <=Notas.length; j++) {
-            if (Notas[j] != null) {
+        for (int j = 0 ; j <= Notas.length; j++) {
+            if (Notas[j] != 0) {
                 media = (media * (j + 1) + (Notas[j]))/(j + 2);
                 break;
             }
@@ -106,10 +107,9 @@ public class Aluno {
     public Double obterMelhorNota(){
         Double melhorNota = 0.0;
 
-        for (int j = 0 ; j <=Notas.length; j++) {
+        for (int j = 0 ; j <= Notas.length; j++) {
             if (Notas[j] > melhorNota) {
                 melhorNota = Notas[j];
-                break;
             }
         }
         return melhorNota;
