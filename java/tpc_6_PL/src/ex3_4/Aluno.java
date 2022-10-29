@@ -17,10 +17,10 @@ public class Aluno {
 
     // e. Um construtor de instâncias da classe que recebe por argumento informação para todos os atributos,
     // exceto o array notas;
-    Aluno(String nome, String cidade, String emaill, int idade, int numeroCartao){
+    Aluno(String nome, String cidade, String email, int idade, int numeroCartao){
         this.Nome = nome;
         this.Cidade = cidade;
-        this.email = emaill;
+        this.email = email;
         this.Idade = idade;
         this.NumeroCartao = numeroCartao;
     }

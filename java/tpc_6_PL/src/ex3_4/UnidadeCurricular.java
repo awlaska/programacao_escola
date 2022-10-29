@@ -20,13 +20,20 @@ public class UnidadeCurricular {
 
     // d. O método adicionarAluno(…) que recebe um Aluno e adiciona-o ao array.
     // O método deve validar que o número do aluno inserido não é duplicado;
-    public void adicionarAluno(Aluno[] aluno){
+    public int adicionarAluno(Aluno aluno){
         for (int j = 0 ; j <=alunos.length; j++) {
-            if (alunos[j] == null) {
-                alunos[j] = aluno[j];
-                break;
+            if (this.alunos[j] == null) {
+                if(this.alunos[j].getNumeroCartao() == aluno.getNumeroCartao()){
+                    return -1;
+                }
+            }
+            for(int x = 0; x < this.alunos.length; x++){
+                if(this.alunos == null){
+
+                }
             }
         }
+        return 0;
     }
 
     // e. O método obterAluno(…) que recebe o número do cartão de aluno e devolve o mesmo;
@@ -64,5 +71,22 @@ public class UnidadeCurricular {
             }
         }
         return alunos.toString();
+    }
+
+    public Aluno obterAlunoMelhorMedia2(){
+        Aluno alunoMelhorMedia = null;
+        for(Aluno alunoTemp : this.alunos){
+            if(alunoTemp != null){
+                if(alunoMelhorMedia == null){
+                    alunoMelhorMedia = alunoTemp;
+                }
+                else {
+                    if(alunoTemp.obterMedia() > alunoMelhorMedia.obterMedia()){
+                        alunoMelhorMedia = alunoTemp;
+                    }
+                }
+            }
+        }
+        return alunoMelhorMedia;
     }
 }
