@@ -45,7 +45,11 @@ public class Publicacao {
         this.numeroPublicacao = numeroPublicacao;
     }
 
-    //TODO vi. O método mostraInformacao() que apresenta a informação da publicação;
+    //DONE vi. O método mostraInformacao() que apresenta a informação da publicação;
+    public String mostraInformacao(){
+        return "O livro "+ this.nome + " tem " + this.numeroPublicacao + " publicacoes";
+    }
+
     //TODO vii. O método introduzirDados(…) que recebe o ‘nome’ para a publicação;
     //TODO viii. O método obterQuantidadePublicacoes() que devolve o número de publicações existentes.
 }

@@ -26,7 +26,7 @@ public class Livro extends Publicacao{
 
     //DONE iv. O método mostraInformacao() que apresenta a informação do Livro;
     public String mostraInformacao(){
-        return "O livro tem como nome " + this.nome + ", escrito por " + this.autor;
+        return super.mostraInformacao() + ", escrito por " + this.autor;
     }
 
     //DONE v. O método introduzirDados(…) que recebe o ‘nome’ e o ‘autor’ do livro;
