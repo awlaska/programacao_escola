@@ -50,6 +50,13 @@ public class Publicacao {
         return "O livro "+ this.nome + " tem " + this.numeroPublicacao + " publicacoes";
     }
 
-    //TODO vii. O método introduzirDados(…) que recebe o ‘nome’ para a publicação;
-    //TODO viii. O método obterQuantidadePublicacoes() que devolve o número de publicações existentes.
+    //DONE vii. O método introduzirDados(…) que recebe o ‘nome’ para a publicação;
+    public void introduzirDados(String nome){
+        this.nome = nome;
+    }
+
+    //DONE viii. O método obterQuantidadePublicacoes() que devolve o número de publicações existentes.
+    public int obterQuantidadePublicacoes(){
+        return quantidadePublicacoes;
+    }
 }
