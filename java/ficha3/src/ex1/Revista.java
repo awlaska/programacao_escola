@@ -2,8 +2,11 @@ package ex1;
 
 public class Revista extends Publicacao {
     //DONE i. Os atributos privados ‘nome’ e ‘numeroRevista’ do tipo String;
-    private String nome, numeroRevista;
-    //TODO ii. Um construtor de Instâncias da Classe;
+    private String nome = "", numeroRevista = "";
+
+    //DONE ii. Um construtor de Instâncias da Classe;
+    Revista(){}
+
     //DONE iii. Os métodos Getter e Setter;
     public String getNome() {
         return nome;
@@ -21,6 +24,14 @@ public class Revista extends Publicacao {
         this.numeroRevista = numeroRevista;
     }
 
-    //TODO iv. O método mostraInformacao() que apresenta a informação da Revista;
-    //TODO v. O método introduzirDados(…) que recebe o ‘nome’ e o ‘numeroRevista’ para a Revista;
+    //DONE iv. O método mostraInformacao() que apresenta a informação da Revista;
+    public String mostraInformacao(){
+        return super.mostraInformacao() + " e numero de revista " + this.numeroRevista;
+    }
+
+    //DONE v. O método introduzirDados(…) que recebe o ‘nome’ e o ‘numeroRevista’ para a Revista;
+    public void introduzirDados(String nome, String numeroRevista){
+        this.nome = nome;
+        this.numeroRevista = numeroRevista;
+    }
 }

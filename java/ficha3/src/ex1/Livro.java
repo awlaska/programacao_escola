@@ -2,10 +2,13 @@ package ex1;
 
 public class Livro extends Publicacao{
     //DONE i. Os atributos privados ‘nome’ e ‘autor’ do tipo String;
-    private String nome, autor;
+    private String nome = "", autor = "";
 
     //DONE ii. Um construtor de Instâncias da Classe;
-    Livro(){}
+    Livro(String nome, String autor){
+        this.nome = nome;
+        this.autor = autor;
+    }
 
     //DONE iii. Os métodos Getter e Setter;
     public String getNome(){

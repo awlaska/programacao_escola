@@ -2,7 +2,7 @@ package ex1;
 
 public class Publicacao {
     //DONE i. O atributo privado ‘nome’ do tipo String;
-    private String nome;
+    private String nome = "";
 
     //DONE ii. A variável de Classe privada ‘quantidadePublicacoes’ do tipo inteiro,
     // que representará o número de Publicações que foram criadas.
@@ -47,7 +47,7 @@ public class Publicacao {
 
     //DONE vi. O método mostraInformacao() que apresenta a informação da publicação;
     public String mostraInformacao(){
-        return "O livro "+ this.nome + " tem " + this.numeroPublicacao + " publicacoes";
+        return "A publicacao de nome "+ this.nome + " tem " + this.numeroPublicacao + " publicacoes";
     }
 
     //DONE vii. O método introduzirDados(…) que recebe o ‘nome’ para a publicação;
