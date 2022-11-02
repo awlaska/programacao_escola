@@ -37,7 +37,7 @@ public class ListaClientes {
                 }
             }
         }
-        catch(Exception e){
+        catch(Exception ClienteNaoExisteException){
             return "-1";
         }
         return "-1";
