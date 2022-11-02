@@ -19,7 +19,6 @@ public class Ventoinha {
         this.velocidadeVentoinha = velocidadeVentoinha;
     }
 
-
     //DONE v. O método ventoinhaLigada() que indica se a ventoinha está ligada ou não.
     // Funciona como Getter do atributo ‘ligada’;
     public boolean VentoinhaLigada(){
@@ -37,8 +36,9 @@ public class Ventoinha {
     }
 
     //DONE viii. O método toString() reescrito de modo a apresentar a informação da ventoinha;
+    @Override
     public String toString(){
         return "A ventoinha está " + (this.ventoinhaLigada ? "ligada" : "desligada") + " com a velocidade " +
-                this.velocidadeVentoinha;
+                this.velocidadeVentoinha + ".";
     }
 }

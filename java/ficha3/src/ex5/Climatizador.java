@@ -36,14 +36,15 @@ public class Climatizador extends Aquecedor{
         this.refrigeracaoLigada = false;
     }
 
-    //DOING viii. O método ligarAquecimento() reescrito, que liga o aquecimento e desliga a refrigeração.
+    //DONE viii. O método ligarAquecimento() reescrito, que liga o aquecimento e desliga a refrigeração.
     public void ligarAquecimento(){
         super.ligarAquecimento();
         this.refrigeracaoLigada = false;
     }
 
-    //TODO ix. O método toString() reescrito de modo a apresentar a informação do climatizador;
+    //DONE ix. O método toString() reescrito de modo a apresentar a informação do climatizador;
     public String toString(){
-        return super.toString();
+        return super.toString() + " e tem o climatizador " + (this.refrigeracaoLigada ? "ligada" : "desligada") +
+                " com potencia " + this.potenciaRefrigerador;
     }
 }
