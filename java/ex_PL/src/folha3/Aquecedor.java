@@ -11,20 +11,39 @@ public class Aquecedor extends Ventoinha {
     //DONE c) Um atributo de instância de acesso privado, potResistencia, com tipo Velocidade,
     // que indica a quantidade de corrente elétrica submetida à resistência, indicando, portanto,
     // a potência de aquecimento do aquecedor. O valor por defeito é PARADA.
-    private Velocidade potResistencia(){
-        return this.getVelocidade();
+    private Velocidade potResistencia = Velocidade.PARADA;
+
+    //DONE d) Um construtor sem parâmetros.
+    public Aquecedor(){}
+
+    //DONE e) Os métodos getter e setter para potResistência.
+    public Velocidade getPotResistencia() {
+        return potResistencia;
     }
 
-    //TODO d) Um construtor sem parâmetros.
+    public void setPotResistencia(Velocidade potResistencia) {
+        this.potResistencia = potResistencia;
+    }
 
-    //TODO e) Os métodos getter e setter para potResistência.
+    //DONE f) Um método isResistenciaLigada(), que funciona como getter do atributo 'resistenciaLigada'.
+    public boolean isResistenciaLigada(){
+        return this.resistenciaLigada;
+    }
 
-    //TODO f) Um método isResistenciaLigada(), que funciona como getter do atributo 'resistenciaLigada'.
+    //DONE g) Um método ligarAquecimento() que liga o aquecimento (resistência elétrica).
+    public void ligarAquecimento(){
+        this.resistenciaLigada = true;
+    }
 
-    //TODO g) Um método ligarAquecimento() que liga o aquecimento (resistência elétrica).
+    //DONE h) Um método desligarAquecimento() que desliga o aquecimento.
+    public void desligarAquecimento(){
+        this.resistenciaLigada = false;
+    }
 
-    //TODO h) Um método desligarAquecimento() que desliga o aquecimento.
-
-    //TODO i) Um método toString() que devolve uma String com o estado atual do Aquecedor,
+    //DONE i) Um método toString() que devolve uma String com o estado atual do Aquecedor,
     // reutilizando o método herdado para a mesma informação…
+    public String toString(){
+        return super.toString() + ", a resistencia está " + (this.resistenciaLigada ? "ligada" : "desligada")
+                + " com potencia " + this.potResistencia;
+    }
 }

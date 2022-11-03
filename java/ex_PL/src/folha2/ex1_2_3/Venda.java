@@ -10,7 +10,7 @@ public class Venda {
     // produtos, para conter os produtos vendidos numa venda.
     private Produto[] produtos;
 
-    //DOING No projeto anterior, altere a classe Venda,
+    //DONE No projeto anterior, altere a classe Venda,
     // criando um atributo de classe vendas (double) com o respetivo getter (método de classe),
     // e modificando o construtor de forma a contabilizar em vendas o número de vendas efetuadas
     // (numero de instâncias de Venda criadas).
@@ -21,6 +21,7 @@ public class Venda {
     public Venda(){
         Venda v = new Venda();
         v.dataVenda = new Date();
+        this.vendas++;
     }
 
     //DONE d) Os métodos getter dos dois atributos definidos anteriormente (dataVenda e produtos).
