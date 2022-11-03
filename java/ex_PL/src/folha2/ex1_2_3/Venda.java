@@ -10,6 +10,12 @@ public class Venda {
     // produtos, para conter os produtos vendidos numa venda.
     private Produto[] produtos;
 
+    //DOING No projeto anterior, altere a classe Venda,
+    // criando um atributo de classe vendas (double) com o respetivo getter (método de classe),
+    // e modificando o construtor de forma a contabilizar em vendas o número de vendas efetuadas
+    // (numero de instâncias de Venda criadas).
+    private double vendas;
+
     //DONE c) Um construtor de instâncias da classe, sem argumentos,
     // que cria uma venda na data de hoje (data do sistema).
     public Venda(){
@@ -34,12 +40,20 @@ public class Venda {
         this.produtos = produtos;
     }
 
+    public double getVendas() {
+        return vendas;
+    }
+
+    public void setVendas(double vendas) {
+        this.vendas = vendas;
+    }
+
     //DOING e) Um método de instância adicionaProduto() que adiciona um produto à venda.
     public void adicionaProduto(Produto p){
         Produto pr = new Produto();
     }
 
-    //TODO f) Um método de instância calculaTotalVenda() que retorna o valor total da venda (soma dos preços de venda dos produtos dessa venda).
+    //DONE f) Um método de instância calculaTotalVenda() que retorna o valor total da venda (soma dos preços de venda dos produtos dessa venda).
     public double calculaTotalVenda(){
         double total = 0.0;
         for(Produto p : produtos){
@@ -48,16 +62,13 @@ public class Venda {
         return total;
     }
 
-    //TODO g) Um método de instância totMargens()
+    //DONE g) Um método de instância totMargens()
     // que retorna o total de margem de lucro desta venda.
-
-    //TODO Escreva a função main() para testar a classe Venda e Produto.
-    // Crie uma venda com vários produtos com diferentes valores dos seus atributos.
-    // Obtenha os valores da venda e margem total.
-
-    //TODO No projeto anterior, altere a classe Venda,
-    // criando um atributo de classe vendas (double) com o respetivo getter (método de classe),
-    // e modificando o construtor de forma a contabilizar em vendas o número de vendas efetuadas
-    // (numero de instâncias de Venda criadas).
-
+    public double totMargem(){
+        double total = 0.0;
+        for(Produto p : produtos){
+            total = p.getMargemLucro() + total;
+        }
+        return total;
+    }
 }
