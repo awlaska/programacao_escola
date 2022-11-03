@@ -20,9 +20,25 @@ public class Ventoinha {
         this.velocidade = velocidade;
     }
 
-    //f) Um método isLigado(), que funciona como getter do atributo 'ligado'.
-    //g) Um método ligar() que liga a ventoinha e coloca a velocidade em BAIXA.
-    //h) Um método desligar() que desliga a ventoinha e coloca a velocidade em PARADA.
-    //i) Um método toString() que devolve uma String com o estado atual da ventoinha.
+    //DONE f) Um método isLigado(), que funciona como getter do atributo 'ligado'.
+    public boolean isLigado(){
+        return this.ligado;
+    }
 
+    //DONE g) Um método ligar() que liga a ventoinha e coloca a velocidade em BAIXA.
+    public void ligar(){
+        this.ligado = true;
+    }
+
+    //DONEh) Um método desligar() que desliga a ventoinha e coloca a velocidade em PARADA.
+    public void desligar(){
+        this.ligado = false;
+    }
+
+    //DONE i) Um método toString() que devolve uma String com o estado atual da ventoinha.
+    @Override
+    public String toString(){
+        return "A ventoinha está " + (this.ligado ? "ligada" : "desligada")
+                + " com velocidade" + this.velocidade;
+    }
 }
