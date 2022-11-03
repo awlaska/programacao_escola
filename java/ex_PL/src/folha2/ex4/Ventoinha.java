@@ -9,7 +9,7 @@ public class Ventoinha {
     private Velocidade velocidade = Velocidade.PARADA;
 
     //DONE d) Um construtor sem parâmetros.
-    Ventoinha(){}
+    public Ventoinha(){}
 
     //DONE e) Os métodos getter e setter para a velocidade.
     public Velocidade getVelocidade() {

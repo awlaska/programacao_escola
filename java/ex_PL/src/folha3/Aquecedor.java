@@ -8,10 +8,12 @@ public class Aquecedor extends Ventoinha {
     // que indica se a sua resistência elétrica se encontra ligada (true) ou não (false). O valor por defeito é false.
     private boolean resistenciaLigada;
 
-    //TODO c) Um atributo de instância de acesso privado, potResistencia, com tipo Velocidade,
+    //DONE c) Um atributo de instância de acesso privado, potResistencia, com tipo Velocidade,
     // que indica a quantidade de corrente elétrica submetida à resistência, indicando, portanto,
     // a potência de aquecimento do aquecedor. O valor por defeito é PARADA.
-    private Velocidade potResistencia
+    private Velocidade potResistencia(){
+        return this.getVelocidade();
+    }
 
     //TODO d) Um construtor sem parâmetros.
 
