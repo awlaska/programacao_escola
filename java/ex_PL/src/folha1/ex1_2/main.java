@@ -1,4 +1,4 @@
-package ex1_2;
+package folha1.ex1_2;
 
 public class main {
     public void main(String args[]) {
