@@ -20,7 +20,7 @@ public class Produto {
         prod.nome = nome;
     }
 
-    //TODO e) Os métodos getters e setters dos três atributos definidos anteriormente.
+    //DONE e) Os métodos getters e setters dos três atributos definidos anteriormente.
 
     public String getNome() {
         return nome;

@@ -30,7 +30,7 @@ public class Ventoinha {
         this.ligado = true;
     }
 
-    //DONEh) Um método desligar() que desliga a ventoinha e coloca a velocidade em PARADA.
+    //DONE h) Um método desligar() que desliga a ventoinha e coloca a velocidade em PARADA.
     public void desligar(){
         this.ligado = false;
     }
