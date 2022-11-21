@@ -59,9 +59,9 @@ public class Veiculo {
     }
 
     // g. Defina o método toString(), de modo a que este apresente a informação do Veiculo;
-    public String toString(Veiculo[] veiculo) {
+    public String toString () {
         return ("O carro da marca " + this.Marca + " e modelo " + this.Modelo + " foi lançado no ano de "
-                + this.AnoDeLancamento + " e vende-se por " + this.PrecoInicial + " euros.");
+                + this.AnoDeLancamento + " e vendia-se por " + this.PrecoInicial + " euros.");
     }
 
     // h. Assumindo que o preço do Veiculo desce, anualmente, 3% do valor inicial,
@@ -71,10 +71,10 @@ public class Veiculo {
     public Double getPrecoVeiculo(int ano){
         int anoL = this.getAnoDeLancamento();
 
-        if(!(anoL >= this.getAnoDeLancamento())){
+        if(anoL >= ano){
             return -1.0;
         } else{
-            return (this.PrecoInicial - (this.PrecoInicial * 0.03 * (ano-anoL)));
+            return (this.PrecoInicial - (this.PrecoInicial * (0.03 * (ano-anoL))));
         }
     }
 }

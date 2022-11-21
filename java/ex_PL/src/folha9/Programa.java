@@ -1,6 +1,6 @@
 package folha9;
 
-public class Programa extends JFrame{
+public class Programa{
     private ServiçoUrgencia serUrg;
     // definição de objetos gráficos (JTextFields) omitida
     public static void main(String[] args) {

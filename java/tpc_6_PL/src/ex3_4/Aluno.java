@@ -10,10 +10,12 @@ public class Aluno {
     private int Idade, NumeroCartao;
 
     // c. Um array de acesso privado: ‘Notas’ do tipo Double. Este array deve ser inicializado com 5 posições;
-    private Double[] Notas = new Double[5];
+    private Double[] Notas;
 
     // d. Um construtor de instâncias da classe, sem argumentos;
-    public Aluno(){}
+    public Aluno(){
+        this.Notas = new Double[5];
+    }
 
     // e. Um construtor de instâncias da classe que recebe por argumento informação para todos os atributos,
     // exceto o array notas;
@@ -84,7 +86,7 @@ public class Aluno {
     // h. O método addNota(…), que adiciona uma nota ao aluno;
     public void addNota(Double nota){
         for (int j = 0; j < Notas.length; j++) {
-            if (Notas[j] == 0) {
+            if (this.Notas[j] == 0) {
                 this.Notas[j] = nota;
                 return;
             }

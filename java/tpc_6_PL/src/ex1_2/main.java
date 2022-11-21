@@ -16,7 +16,7 @@ public class main {
         Veiculo bmw = new Veiculo("BMW", "cba", 2017);
         bmw.setPrecoInicial(20000.0);
 
-        System.out.println(bmw);
+        System.out.println(bmw.toString());
 
         System.out.println("Preco em 2020: " + bmw.getPrecoVeiculo(2020));
 
