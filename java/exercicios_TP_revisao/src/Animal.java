@@ -6,9 +6,10 @@ public class Animal {
     private Double pesoNasc;
     private int numRegisto;
     private Animal pai;
-    private Animal mae;
+    private AnimalFemea mae;
+    private Venda venda;
 
-    public Animal(int numRegisto, Animal pai, Animal mae){
+    public Animal(int numRegisto, Animal pai, AnimalFemea mae){
         this.numRegisto = numRegisto;
         this.pai = pai;
         this.mae = mae;
@@ -54,11 +55,19 @@ public class Animal {
         this.pai = pai;
     }
 
-    public Animal getMae() {
+    public AnimalFemea getMae() {
         return mae;
     }
 
-    public void setMae(Animal mae) {
+    public void setMae(AnimalFemea mae) {
         this.mae = mae;
+    }
+
+    public Venda getVenda() {
+        return venda;
+    }
+
+    public void setVenda(Venda venda) {
+        this.venda = venda;
     }
 }
