@@ -1,0 +1,37 @@
+1. Considere que se pretende desenvolver uma aplicação para gerir reservas de lugares num estádio para claques de futebol.
+ - Uma Reserva é caracterizada pela seguinte informação: número de reserva (int), data (Date),
+    preço por pessoa (float) e, a cada nome de claque faz corresponder (Map) uma Claque.
+ - Uma Claque é caracterizada por: O nome da claque (String) e uma lista (List) com os elementos da claque;
+ - Um Elemento da Claque é uma pessoa com nome (String) e telefone (String).
+
+a)  Codifique as classes Reserva, Claque e Elemento descritas acima. Incluir os respetivos
+construtores. Não implementar os métodos de acesso (getters) e mutação (setters).
+
+b)  Sobre a classe Reserva, da alínea anterior, implementar um método com a seguinte assinatura, para acrescentar uma claque à reserva (assuma que estão definidos todos os getters e setters):
+          public void acrecentarClaque(Claque claque);
+O método deve lançar a exceção ReservaException caso o nome da claque já exista na reserva. Fazer as alterações necessárias no cabeçalho do método para este efeito.
+
+c)  Na classe Reserva, criar um método para receber um nome de claque e devolver o número total de elementos da claque que fizeram a reserva (assuma que estão definidos todos os getters e setters).
+
+2. Implemente uma classe Estadio (apenas os atributos e construtor) para armazenar e gerir reservas de claques (use o tipo de coleção que considerar mais apropriado). A classe Estadio deve ainda implementar a seguinte interface (nota: considere que estão definidos getters e setters para todos os atributos de todas as classes):
+
+public interface ICampoFutebol
+{ 
+
+void adicionarReserva(Reserva r) throws ReservaException;
+
+Claque getMaiorClaque();    //devolve a claque com mais pessoas 
+
+}
+
+
+
+3. Na continuação da questão anterior, escreva as instruções necessárias para:
+
+criar uma variável de tipo ICampoFutebol, e povoá-la com um objeto apropriado.
+
+Criar uma reserva e três claques, e acrescentá-las à reserva.
+
+Acrescentar a reserva ao ICampoFutebol criado anteriormente, usando o método da interface para o efeito e efetuando o tratamento adequado de Exceções.
+
+Imprimir para o ecrã a reserva com a maior claque (claque maior número de pessoas), fazendo uso do método adequado da interface.

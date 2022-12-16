@@ -1,0 +1,5 @@
+Saida com PrintWriter. 
+tipos primitivos convertidos em String: 
+boolean =     false 
+int =   1234567 
+double = -4.30e-15 

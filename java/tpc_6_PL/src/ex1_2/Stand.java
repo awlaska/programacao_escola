@@ -1,5 +1,7 @@
 package ex1_2;
 
+import org.testng.annotations.Test;
+
 import java.util.Objects;
 
 public class Stand {
@@ -20,30 +22,44 @@ public class Stand {
         this.veiculos = veiculos;
     }
 
-    // d. O método adicionarVeiculo(…)que recebe um Veículo e acrescenta-o ao array;
+    //TODO d. O método adicionarVeiculo(…)que recebe um Veículo e acrescenta-o ao array;
     public void adicionarVeiculo(Veiculo veiculo){
-        for(int i = 0; i < 50; i++){
-            if(this.veiculos[i] == null){
-                this.veiculos[i] = veiculo;
+        for(Veiculo veic : veiculos){
+            if(veic == null){
+                veic = veiculo;
+                System.out.println(veiculo.toString());
+                System.out.println(veic.toString());
                 return;
             }
         }
     }
 
-    // e. O método obterVeiculo(…) que recebe o Modelo do Veículo e devolve esse veículo;
+    //TODO e. O método obterVeiculo(…) que recebe o Modelo do Veículo e devolve esse veículo;
     public String obterVeiculo(String modelo){
-        int i = 0;
-        for(i = 0; i < 50; i++){
-            if (this.veiculos[i].getModelo() == modelo){
-                ;
+        for(Veiculo veic : veiculos){
+            if (veic.getModelo().equals(modelo)){
+                return veic.toString();
             }
         }
-        return veiculos[i].toString();
+        return null;
     }
 
-    // f. O método obterQuantidadeVeiculos(…) que devolve a quantidade de veículo existentes no stand;
+    //TODO f. O método obterQuantidadeVeiculos(…) que devolve a quantidade de veículo existentes no stand;
     public int obterQuantidadeVeiculos(){
-        return veiculos.length;
+       /* int i = 0;
+        for(Veiculo veic : veiculos){
+            if(veic.getMarca() != null)
+                i++;
+        }
+        return i;*/
+        int x = 0;
+        for (int i=0; i<veiculos.length; i++){
+            if (veiculos[i]!=null){
+                x++;
+            }
+        }
+
+        return x;
     }
 
     // g. O método listarVeiculos(…) que lista todos os veículos de uma dada marca.

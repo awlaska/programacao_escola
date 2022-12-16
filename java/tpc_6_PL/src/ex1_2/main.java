@@ -16,16 +16,24 @@ public class main {
         Veiculo bmw = new Veiculo("BMW", "cba", 2017);
         bmw.setPrecoInicial(20000.0);
 
+
         System.out.println(bmw.toString());
 
-        System.out.println("Preco em 2020: " + bmw.getPrecoVeiculo(2020));
+       // System.out.println("Preco em 2020: " + bmw.getPrecoVeiculo(2020));
 
         // 2. Modifique a função main() de modo a testar a classe criada. Adicione veículos ao
         // array, obtenha um veículo pela marca, e obtenha a quantidade de veículos
         // existente no stand.
+        System.out.println("--- Stand ---");
 
         Stand stand = new Stand();
         stand.adicionarVeiculo(mercedes);
         stand.adicionarVeiculo(bmw);
+        System.out.println(stand.obterVeiculo("cba"));
+        System.out.println("O stand tem: " + stand.obterQuantidadeVeiculos() + " veiculos");
+
+        /*
+        stand.obterVeiculo("abc");
+        stand.obterQuantidadeVeiculos();*/
     }
 }
