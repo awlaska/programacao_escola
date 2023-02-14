@@ -1,0 +1,20 @@
+ex.1
+Suponha que o preco final de um imovel e calculado da seguinte forma:
+preco final = preco base + imposto sobre imoveis (IMS) + IVA.
+O ISM é 20% do preco base para os imoveis com preco base inferior a 150.000€ e de 30% para os outros imoveis.
+O iva é de 23% do preco base.
+Escreva um programa, na linguagem C, que depois de pedir ao utilizador o valor base de um imóvel, apresenta para o ecra
+o ISM, o IVA e o valor final a pagar pelo imóvel.
+
+ex.2
+Suponha que um cometa é avistado na terra nos anos multiplos de 6 e nao multiplos de 4
+Escreva um programa na linguagem C, que apresente para o ecra os anos desde 1900 até 2022
+em que o cometa foi avistado e quantas vezes foi avistado
+
+ex.3
+Supondo que no array float valoresSS[8], declarada na funcao main(), estao armazenadas os valores pagos à segurança social
+no ano 2021 por uma empresa por cada um dos seu 8 funcionariao
+a) implemente a funcao calMediaValores (...) que recebe como parametro o array valoresSS e retorna a media
+geral dos valores
+b) escreva o codigo da funcao main() que permita invocar a funcao implementada na alinea anterior e apresentar o valor devolvido
+pela funcao no ecra

@@ -1,0 +1,6 @@
+# ninja log v5
+3	184	6980761926990745	build.ninja	64f997b9321e8863
+1	83	6980749959195697	CMakeFiles/untitled.dir/ex1.c.obj	1063259460784b49
+182	415	6980761163160162	untitled.exe	184a0b4dcf8cbdb4
+8	83	6980749959195697	CMakeFiles/untitled.dir/ex2.c.obj	b4f2f3952809d9f5
+3	181	6980761160936488	CMakeFiles/untitled.dir/ex3.c.obj	4a7dee5f1401d955
