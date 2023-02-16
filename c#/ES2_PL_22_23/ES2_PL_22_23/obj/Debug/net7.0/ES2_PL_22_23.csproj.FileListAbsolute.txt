@@ -1,0 +1,15 @@
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\bin\Debug\net7.0\ES2_PL_22_23.exe
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\bin\Debug\net7.0\ES2_PL_22_23.deps.json
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\bin\Debug\net7.0\ES2_PL_22_23.runtimeconfig.json
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\bin\Debug\net7.0\ES2_PL_22_23.dll
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\bin\Debug\net7.0\ES2_PL_22_23.pdb
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ES2_PL_22_23.csproj.AssemblyReference.cache
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ES2_PL_22_23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ES2_PL_22_23.AssemblyInfoInputs.cache
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ES2_PL_22_23.AssemblyInfo.cs
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ES2_PL_22_23.csproj.CoreCompileInputs.cache
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ES2_PL_22_23.dll
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\refint\ES2_PL_22_23.dll
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ES2_PL_22_23.pdb
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ES2_PL_22_23.genruntimeconfig.cache
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\ES2_PL_22_23\ES2_PL_22_23\obj\Debug\net7.0\ref\ES2_PL_22_23.dll
