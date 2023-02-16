@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace ES2_PL_22_23;
 
-Console.WriteLine("Hello, World!");
+class Hello{
+    static void Main(){
+        Console.WriteLine("Hello World!");
+    }
+}

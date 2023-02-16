@@ -7,4 +7,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="23_02_16\Stack.cs" />
+      <Compile Remove="23_02_16\KUSJDF.cs" />
+      <Compile Remove="23_02_16\skhrfvb.cs" />
+    </ItemGroup>
+
 </Project>
