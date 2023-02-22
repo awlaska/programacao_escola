@@ -8,7 +8,7 @@ float calMediaValores(float valoresSS[]){
     return media = media/8;
 }
 
-float main(){
+float ex3(){
     float valoresSS[8];
     valoresSS[0] = 80;
     valoresSS[1] = 95;

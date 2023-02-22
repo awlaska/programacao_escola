@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/cmake-build-debug"
+			"value" : "c:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica"
+			"value" : "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/untitled"
+			"value" : "C:/Program Files (x86)/prog1_pratica"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/cmake-build-debug"
+			"value" : "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/cmake-build-debug"
 		},
 		{
 			"name" : "prog1_pratica_IS_TOP_LEVEL",
@@ -1119,43 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica"
-		},
-		{
-			"name" : "untitled_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/cmake-build-debug"
-		},
-		{
-			"name" : "untitled_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "untitled_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica"
+			"value" : "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica"
 		}
 	],
 	"kind" : "cache",

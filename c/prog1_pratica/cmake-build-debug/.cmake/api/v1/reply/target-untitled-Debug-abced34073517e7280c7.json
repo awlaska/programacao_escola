@@ -57,7 +57,9 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -96,7 +98,9 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -105,19 +109,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex1.c",
+			"path" : "PL_23_02_16/ex1.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex2.c",
+			"path" : "PL_23_02_16/ex2.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex3.c",
+			"path" : "PL_23_02_16/ex3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "TP_23_02_17/files.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "TP_23_02_17/impares_ficheiro.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target untitled
 
@@ -49,23 +49,35 @@ cmake_ninja_workdir = C$:/Users/sofia/OneDrive/Documentos/_escola/programacao/pr
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/ex1.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/ex1.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\ex1.c.obj.d
+build CMakeFiles/untitled.dir/PL_23_02_16/ex1.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex1.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex1.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PL_23_02_16
 
-build CMakeFiles/untitled.dir/ex2.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/ex2.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\ex2.c.obj.d
+build CMakeFiles/untitled.dir/PL_23_02_16/ex2.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex2.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex2.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PL_23_02_16
 
-build CMakeFiles/untitled.dir/ex3.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/ex3.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\ex3.c.obj.d
+build CMakeFiles/untitled.dir/PL_23_02_16/ex3.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex3.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex3.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PL_23_02_16
+
+build CMakeFiles/untitled.dir/TP_23_02_17/files.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/TP_23_02_17/files.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\TP_23_02_17\files.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\TP_23_02_17
+
+build CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/TP_23_02_17/impares_ficheiro.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\TP_23_02_17\impares_ficheiro.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\TP_23_02_17
 
 
 # =============================================================================
@@ -75,7 +87,7 @@ build CMakeFiles/untitled.dir/ex3.c.obj: C_COMPILER__untitled_Debug C$:/Users/so
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/ex1.c.obj CMakeFiles/untitled.dir/ex2.c.obj CMakeFiles/untitled.dir/ex3.c.obj
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/PL_23_02_16/ex1.c.obj CMakeFiles/untitled.dir/PL_23_02_16/ex2.c.obj CMakeFiles/untitled.dir/PL_23_02_16/ex3.c.obj CMakeFiles/untitled.dir/TP_23_02_17/files.c.obj CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir
@@ -90,7 +102,7 @@ build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\sofia\OneDrive\Documentos\_escola\programacao\prog1_pratica\cmake-build-debug && "C:\Users\sofia\Documents\_escola\apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\sofia\Documents\_escola\programacao_escola\c\prog1_pratica\cmake-build-debug && "C:\Users\sofia\Documents\_escola\apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -101,7 +113,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\sofia\OneDrive\Documentos\_escola\programacao\prog1_pratica\cmake-build-debug && "C:\Users\sofia\Documents\_escola\apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\sofia\OneDrive\Documentos\_escola\programacao\prog1_pratica -BC:\Users\sofia\OneDrive\Documentos\_escola\programacao\prog1_pratica\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\sofia\Documents\_escola\programacao_escola\c\prog1_pratica\cmake-build-debug && "C:\Users\sofia\Documents\_escola\apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\sofia\Documents\_escola\programacao_escola\c\prog1_pratica -BC:\Users\sofia\Documents\_escola\programacao_escola\c\prog1_pratica\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -119,7 +131,7 @@ build untitled: phony untitled.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/cmake-build-debug
+# Folder: C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/cmake-build-debug
 
 build all: phony untitled.exe
 

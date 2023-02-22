@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica
+# Install script for directory: C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/untitled")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/prog1_pratica")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/sofia/OneDrive/Documentos/_escola/programacao/prog1_pratica/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

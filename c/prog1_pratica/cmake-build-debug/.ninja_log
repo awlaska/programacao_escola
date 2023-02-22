@@ -1,6 +1,19 @@
 # ninja log v5
-3	184	6980761926990745	build.ninja	64f997b9321e8863
-1	83	6980749959195697	CMakeFiles/untitled.dir/ex1.c.obj	1063259460784b49
-182	415	6980761163160162	untitled.exe	184a0b4dcf8cbdb4
-8	83	6980749959195697	CMakeFiles/untitled.dir/ex2.c.obj	b4f2f3952809d9f5
-3	181	6980761160936488	CMakeFiles/untitled.dir/ex3.c.obj	4a7dee5f1401d955
+3	184	6983416272263312	build.ninja	64f997b9321e8863
+147	350	6983414753433211	untitled.exe	3ee5a51019c7ada9
+4	146	6983404902027631	CMakeFiles/untitled.dir/PL_23_02_16/ex3.c.obj	aac74eb880b45044
+16	165	6983414510171668	CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj	11cb4cb45d84cd30
+1	241	6983401739180030	CMakeFiles/untitled.dir/PL_23_02_16/ex2.c.obj	54f61bd43879799
+5	132	6983409507957559	CMakeFiles/untitled.dir/TP_23_02_17/idk.c.obj	fe2339d2a232fa93
+18	243	6983401739200012	CMakeFiles/untitled.dir/PL_23_02_16/ex1.c.obj	8796b088dd71cc11
+5	146	6983414751443639	CMakeFiles/untitled.dir/TP_23_02_17/files.c.obj	d8be67fdc954f20b
+6	182	6983416316494953	CMakeFiles/untitled.dir/PL_23_02_16/ex2.c.obj	54f61bd43879799
+21	196	6983416316651272	CMakeFiles/untitled.dir/PL_23_02_16/ex1.c.obj	8796b088dd71cc11
+34	199	6983416316692976	CMakeFiles/untitled.dir/PL_23_02_16/ex3.c.obj	aac74eb880b45044
+199	429	6983416318898622	untitled.exe	c9aad1b9d5a12cc7
+3	154	6983417481019080	CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj	11cb4cb45d84cd30
+155	414	6983417483533462	untitled.exe	c9aad1b9d5a12cc7
+4	171	6983421076774505	CMakeFiles/untitled.dir/TP_23_02_17/files.c.obj	d8be67fdc954f20b
+3	151	6983421757200860	CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj	11cb4cb45d84cd30
+17	153	6983421757191116	CMakeFiles/untitled.dir/TP_23_02_17/files.c.obj	d8be67fdc954f20b
+153	366	6983421759286991	untitled.exe	c9aad1b9d5a12cc7
