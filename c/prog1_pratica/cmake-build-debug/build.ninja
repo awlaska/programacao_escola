@@ -49,20 +49,20 @@ cmake_ninja_workdir = C$:/Users/sofia/Documents/_escola/programacao_escola/c/pro
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/PL_23_02_16/ex1.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex1.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex1.c.obj.d
+build CMakeFiles/untitled.dir/PL_23_02_16/ex1_23_02_16.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex1_23_02_16.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex1_23_02_16.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PL_23_02_16
 
-build CMakeFiles/untitled.dir/PL_23_02_16/ex2.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex2.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex2.c.obj.d
+build CMakeFiles/untitled.dir/PL_23_02_16/ex2_23_02_16.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex2_23_02_16.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex2_23_02_16.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PL_23_02_16
 
-build CMakeFiles/untitled.dir/PL_23_02_16/ex3.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex3.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex3.c.obj.d
+build CMakeFiles/untitled.dir/PL_23_02_16/ex3_23_02_16.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_16/ex3_23_02_16.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_16\ex3_23_02_16.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PL_23_02_16
@@ -79,6 +79,18 @@ build CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj: C_COMPILER__un
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir\TP_23_02_17
 
+build CMakeFiles/untitled.dir/PL_23_02_28_ficheiros_texto/ex1_23_02_28.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_28_ficheiros_texto/ex1_23_02_28.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_28_ficheiros_texto\ex1_23_02_28.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PL_23_02_28_ficheiros_texto
+
+build CMakeFiles/untitled.dir/PL_23_02_28_ficheiros_texto/ex2_23_02_28.c.obj: C_COMPILER__untitled_Debug C$:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_28_ficheiros_texto/ex2_23_02_28.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\PL_23_02_28_ficheiros_texto\ex2_23_02_28.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PL_23_02_28_ficheiros_texto
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -87,7 +99,7 @@ build CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj: C_COMPILER__un
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/PL_23_02_16/ex1.c.obj CMakeFiles/untitled.dir/PL_23_02_16/ex2.c.obj CMakeFiles/untitled.dir/PL_23_02_16/ex3.c.obj CMakeFiles/untitled.dir/TP_23_02_17/files.c.obj CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/PL_23_02_16/ex1_23_02_16.c.obj CMakeFiles/untitled.dir/PL_23_02_16/ex2_23_02_16.c.obj CMakeFiles/untitled.dir/PL_23_02_16/ex3_23_02_16.c.obj CMakeFiles/untitled.dir/TP_23_02_17/files.c.obj CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj CMakeFiles/untitled.dir/PL_23_02_28_ficheiros_texto/ex1_23_02_28.c.obj CMakeFiles/untitled.dir/PL_23_02_28_ficheiros_texto/ex2_23_02_28.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir

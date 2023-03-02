@@ -1,0 +1,15 @@
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\bin\Debug\net7.0\Exercicios.exe
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\bin\Debug\net7.0\Exercicios.deps.json
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\bin\Debug\net7.0\Exercicios.runtimeconfig.json
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\bin\Debug\net7.0\Exercicios.dll
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\bin\Debug\net7.0\Exercicios.pdb
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\Exercicios.csproj.AssemblyReference.cache
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\Exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\Exercicios.AssemblyInfoInputs.cache
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\Exercicios.AssemblyInfo.cs
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\Exercicios.csproj.CoreCompileInputs.cache
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\Exercicios.dll
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\refint\Exercicios.dll
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\Exercicios.pdb
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\Exercicios.genruntimeconfig.cache
+C:\Users\sofia\Documents\_escola\programacao_escola\c#\PL_23_03_02\Exercicios\obj\Debug\net7.0\ref\Exercicios.dll

@@ -23,7 +23,7 @@ int impares(){
     return 0;
 }
 
-int main(){
+int ficheiro(){
     FILE *fp = NULL;
     int valor = 0;
     int soma = 0;

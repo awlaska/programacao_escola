@@ -1,0 +1,3 @@
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/PL_23_02_28_ficheiros_texto.dir
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/rebuild_cache.dir

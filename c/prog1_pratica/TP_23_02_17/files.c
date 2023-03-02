@@ -33,9 +33,9 @@ int readFile(){
 //        printf("%s", linha);
 //    }
 
-    while(ch = fgets(fp) != EOF){
-        printf("%c", *ch);
-    }
+//    while(ch = fgets(fp) != EOF){
+//        printf("%c", *ch);
+//    }
 
     fclose(fp);
     return 0;

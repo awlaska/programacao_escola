@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int ex2(){
+int ex2_23_02_16(){
     int count = 0;
     for(int ano = 1900; ano <= 2022; ano++){
         if(ano%4 != 0 && ano%6 == 0){
@@ -13,7 +13,7 @@ int ex2(){
     return 0;
 }
 
-int ex2_2(){
+int ex2_2_23_02_16(){
     int count = 0;
     int i = 1900;
     while(i <= 2022){

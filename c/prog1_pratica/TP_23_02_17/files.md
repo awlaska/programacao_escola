@@ -2,7 +2,7 @@
 ## Open a file
 > FILE *fopen(char *nome, char *modo);   
 ## Write on a file
-> int fprintf(FILE *fp, "nome.", "...");
+> int fprintf(FILE *fp, "nome.", "...");   
 ### Parâmetros
 - w - write - abrir para escrita
 - r - read - abrir para leitura
@@ -15,11 +15,11 @@
 ## Other
 - FILE char nome[]
 - FILE *fopen(char *nome, char *modo)
-- int fprintf(FILE *fp, "...", "...")
+- int fprintf(FILE *fp, "%i", variavel)
 - int fclose(FILE *fp);
 - int fputc(int ch, FILE *fp)
 - int fputs(char *st, FILE *fp)
 - int fscan(FILE *fp, "...", "...")
-- int fgetc(FILE *fp)
-- char *fgets(char *str, int n, FILE *fp)
-- int feof(FILE *fp)
+- int fgetc(FILE *fp) -> character
+- char *fgets(char *str, int n, FILE *fp) -> string
+- int feof(FILE *fp) -> end of file

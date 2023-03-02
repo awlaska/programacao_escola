@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PL_23_02_28_ficheiros_texto",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PL_23_02_28_ficheiros_texto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PL_23_02_28_ficheiros_texto-Debug-06ff04905c9182f0b101.json",
+					"name" : "PL_23_02_28_ficheiros_texto",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_28_ficheiros_texto/cmake-build-debug",
+		"source" : "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_02_28_ficheiros_texto"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int ex1() {
+int ex1_23_02_16() {
     // Declarar as varia'veis
     float precoFinal = 0.0f, ism = 0.0f, precoBase = 0.0f, iva = 0.0f;
 
