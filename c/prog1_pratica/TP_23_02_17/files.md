@@ -8,8 +8,15 @@
 - r - read - abrir para leitura
 - a - append - abrir para escrita - acrescenta informação
 - w+ - ler e escrever no ficheiro
-- r+ - ler e ecrever no ficheiro
-- a+ - ler e escrever no ficheiro
+- r+ - ler e escrever ficheiro
+- a+ - ler e escrever(append) no ficheiro
+- wb - escrever em binario
+- rb - ler em binario
+- ab - append em binario
+- wb+ - ler e escrever em binario
+- rb+ - ler e escrever em binario
+- ab+ - ler e escrever(append) em binario
+
 ## Close a file
 > fclose(FILE fp);
 ## Other
@@ -23,3 +30,4 @@
 - int fgetc(FILE *fp) -> character
 - char *fgets(char *str, int n, FILE *fp) -> string
 - int feof(FILE *fp) -> end of file
+### Binary
