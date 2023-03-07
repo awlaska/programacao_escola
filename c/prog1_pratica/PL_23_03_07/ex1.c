@@ -105,7 +105,7 @@ void alterarInformacao(int numero){}
 
     //TODO
 int main(){
-    int tot = 0, opcao = 0;
+    int tot = 0, opcao = 0, nr = 0;
     struct participantes;
 
     while(tot <= 1){
@@ -128,14 +128,16 @@ int main(){
                 break;
             case 3:
                 //TODO pedir numero do participante
-                listarParticipante();
+                nr = pedirNrParticipante();
+                listarParticipante(nr);
             case 4:
             case 5:
             case 6:
             case 7:
                 //TODO pedir numero do participante
-                alterarInformacao();
-            case default:
+                nr = pedirNrParticipante();
+                alterarInformacao(nr);
+            default:
                 printf("Insira uma opcao valida!");
                 break;
         }
