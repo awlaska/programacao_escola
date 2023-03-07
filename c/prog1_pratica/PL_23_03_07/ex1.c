@@ -96,10 +96,13 @@ int listarInformacao(){
 
         fclose(fp);
         return 0;
-    }
+}
 
     //TODO fazer acesso direto fsync()
-void listarParticipante(int numero){}
+void listarParticipante(int numero, int tot){
+    FILE *fp = abrirFicheiroReadBM();
+
+}
 
     //TODO ler do ficheiro e somar valorPago
 void somaPagamentos(){}
@@ -107,8 +110,16 @@ void somaPagamentos(){}
     //TODO ler ficheiro e agrupar os do mesmo tipo
 void listarParticipantesTipo(){}
 
-    //TODO escrever no ficheiro numero e nome (linha)
-void escreverInformacaoFicheiro(){}
+    //DONE escrever no ficheiro numero e nome (linha)
+    //TODO verficar
+void escreverInformacaoFicheiro(){
+    FILE *fp = abrirFicheiroAppendBM();
+    int tot = 0;
+
+    while(fscanf(fp, "%[^\n]s;%f;%i", PART[tot].nome, &PART[tot].valorPago, &PART[tot].tipo) == 3){
+        tot++;
+    }
+}
 
     //TODO alterar valor pago
 void alterarInformacao(int numero){}
@@ -141,7 +152,7 @@ int main(){
             case 3:
                 //DONE pedir numero do participante
                 nr = pedirNrParticipante();
-                listarParticipante(nr);
+                listarParticipante(nr, tot);
                 break;
             case 4:
                 somaPagamentos();
