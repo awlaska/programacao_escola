@@ -95,7 +95,7 @@ void listarParticipante(int numero){}
 void somaPagamentos(){}
 
     //TODO ler ficheiro e agrupar os do mesmo tipo
-void listarParticipantesTipo(char tipoa){}
+void listarParticipantesTipo(){}
 
     //TODO escrever no ficheiro numero e nome (linha)
 void escreverInformacaoFicheiro(){}
@@ -108,7 +108,7 @@ int main(){
     int tot = 0, opcao = 0, nr = 0;
     struct participantes;
 
-    while(tot <= 1){
+    while(tot <= 1) {
         printf("Insira a opcao: \n");
         printf("1 - Receber informacao sobre um participante\n");
         printf("2 - Listar informacao\n");
@@ -127,27 +127,28 @@ int main(){
                 listarInformacao();
                 break;
             case 3:
-                //TODO pedir numero do participante
+                //DONE pedir numero do participante
                 nr = pedirNrParticipante();
                 listarParticipante(nr);
+                break;
             case 4:
+
             case 5:
+                listarParticipantesTipo();
+                break;
             case 6:
+                escreverInformacaoFicheiro();
+                break;
             case 7:
-                //TODO pedir numero do participante
+                //DONE pedir numero do participante
                 nr = pedirNrParticipante();
                 alterarInformacao(nr);
+                break;
+            case 0:
+                exit(EXIT_SUCCESS);
             default:
                 printf("Insira uma opcao valida!");
                 break;
         }
-
-         PART[tot] = receberInformacao(tot);
-         printf("", PART[tot]);
     }
-
-    listarInformacao();
-
-    escreverInformacaoFicheiro();
-
 }
