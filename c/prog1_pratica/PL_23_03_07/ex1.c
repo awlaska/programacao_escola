@@ -1,19 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
+#define MAX = 200;
 
 enum tipoEnum{E, A, C, O};
 
 struct participantes{
     float valorPago;
     enum tipoEnum tipo;
-    char nome[];
+    char nome[100];
 } PART[200];
+
+//DONE
+int contarParticipantes(FILE *fp){
+    fseek(fp, 0, SEEK_END);
+    return ftell(fp)/sizeof(PART);
+}
 
     //DONE
 int pedirNrParticipante(){
     int nr;
     printf("Insira o nu'mero do participante: ");
-    scanf("%i", nr);
+    scanf("%i", &nr);
     return nr;
 }
 
@@ -41,10 +50,11 @@ FILE * abrirFicheiroAppendBM(){
 
     //TODO verificar se dá certo
     // corrigir enters
+    // nao pede o nome
 struct participantes receberInformacao(int tot){
     char tipoa;
-    printf("Insira o seu nome: ");
-    scanf("%[^\n]s", PART[tot].nome);
+    printf("\nInsira o seu nome: ");
+    scanf("%[^\n]*s", PART[tot].nome);
     fflush(stdin);
     printf("Insira o valor pago: ");
     scanf("%f", &PART[tot].valorPago);
@@ -79,9 +89,9 @@ int listarInformacao(){
 
         char linha[200];
 
-        char *ch;
-        while((ch = fgets(linha, 200, fp)) != EOF){
-        printf("%c", *ch);
+        char ch[200];
+        while((strcpy(ch, fgets(linha, 200, fp))) != EOF){
+        printf("%c", ch);
     }
 
         fclose(fp);
@@ -103,28 +113,30 @@ void escreverInformacaoFicheiro(){}
     //TODO alterar valor pago
 void alterarInformacao(int numero){}
 
-    //TODO
+    //TODO verificar
 int main(){
     int tot = 0, opcao = 0, nr = 0;
     struct participantes;
 
     while(tot <= 1) {
-        printf("Insira a opcao: \n");
+        printf("\n\nInsira a opcao: \n");
         printf("1 - Receber informacao sobre um participante\n");
         printf("2 - Listar informacao\n");
         printf("3 - Listar um participante\n");
         printf("4 - Soma pagamentos\n");
         printf("5 - Listar por tipo de participante\n");
         printf("6 - Escrever informacao para o ficheiro\n");
-        printf("7 - Alterar informacao\n");
+        printf("7 - Alterar informacao");
+        printf("\n");
         scanf("%i", &opcao);
+        fflush(stdin);
 
         switch (opcao) {
             case 1:
                 receberInformacao(tot);
                 break;
             case 2:
-                listarInformacao();
+                //listarInformacao();
                 break;
             case 3:
                 //DONE pedir numero do participante
@@ -132,7 +144,8 @@ int main(){
                 listarParticipante(nr);
                 break;
             case 4:
-
+                somaPagamentos();
+                break;
             case 5:
                 listarParticipantesTipo();
                 break;

@@ -30,4 +30,5 @@
 - int fgetc(FILE *fp) -> character
 - char *fgets(char *str, int n, FILE *fp) -> string
 - int feof(FILE *fp) -> end of file
+- ftell() -> mostra onde cursor em bytes
 ### Binary
