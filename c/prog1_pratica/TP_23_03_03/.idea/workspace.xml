@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -18,31 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="167f2c5b-2ced-4261-ae5f-6e3ab267b5f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/BirdWatcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/TP_23_03_03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aluno.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/.idea/.idea.PL_23_03_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/.idea/.idea.PL_23_03_02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/bin/Debug/net7.0/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/bin/Debug/net7.0/Exercicios.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/bin/Debug/net7.0/Exercicios.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/bin/Debug/net7.0/Exercicios.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/Exercicios.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/Exercicios.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/Exercicios.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/Exercicios.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/Exercicios.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/ref/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/ref/Exercicios.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/refint/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/refint/Exercicios.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_23_02_17/files.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_23_02_17/files.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../java/aula_22_TP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/aula_22_TP/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../java/ficha3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/ficha3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,27 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/TP_23_03_03"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/TP_23_03_03&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="TP_23_03_03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TP_23_03_03" TARGET_NAME="TP_23_03_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TP_23_03_03" RUN_TARGET_NAME="TP_23_03_03">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TP_23_03_03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TP_23_03_03" TARGET_NAME="TP_23_03_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TP_23_03_03" RUN_TARGET_NAME="TP_23_03_03">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -107,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677844071724</updated>
       <workItem from="1677844073270" duration="3715000" />
+      <workItem from="1678181930974" duration="84000" />
     </task>
     <servers />
   </component>
