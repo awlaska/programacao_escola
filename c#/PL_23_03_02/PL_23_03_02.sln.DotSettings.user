@@ -1,2 +1,33 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=238D416C_002DFF38_002D4F0E_002DB710_002D50114E885F9C_002Ff_003ABirdWatcher_002Ecs/@EntryIndexedValue">ForceIncluded</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=238D416C_002DFF38_002D4F0E_002DB710_002D50114E885F9C_002Ff_003ABirdWatcher_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3fffb5ca_002D9371_002D40c9_002Dac65_002De738d4f7ae36/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0FFA59DC-3CAB-41F8-B6A9-D18B2BB29654::net7.0::BirdWatcherTest.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8168fa18_002D8a21_002D46f0_002D9c75_002D3cfdc6a1adc0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestLastWeek" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0FFA59DC-3CAB-41F8-B6A9-D18B2BB29654::net7.0::BirdWatcherTest.Tests.TestLastWeek&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b00ebfa2_002Ddddf_002D42dc_002D9fd3_002D06b8c7f0e3cd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestLastWeek #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0FFA59DC-3CAB-41F8-B6A9-D18B2BB29654::net7.0::BirdWatcherTest.Tests.TestLastWeek&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0FFA59DC-3CAB-41F8-B6A9-D18B2BB29654::net7.0::BirdWatcherTest.Tests.TestIncrementTodaysCount&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1AEC68E2-50F6-42BF-9D44-E0A690C71470::net7.0::NeedForSpeedTest.Tests.TestDriveTheCar&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea9ddd91_002Dc3b4_002D408e_002Da6ee_002D060d8d033343/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0FFA59DC-3CAB-41F8-B6A9-D18B2BB29654::net7.0::BirdWatcherTest.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f5d4190d_002Ddc5f_002D45df_002D9a7f_002Dacad460165fe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestIncrementTodaysCount" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0FFA59DC-3CAB-41F8-B6A9-D18B2BB29654::net7.0::BirdWatcherTest.Tests.TestIncrementTodaysCount&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1AEC68E2-50F6-42BF-9D44-E0A690C71470::net7.0::NeedForSpeedTest.Tests.TestDriveTheCar&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1AEC68E2-50F6-42BF-9D44-E0A690C71470::net7.0::NeedForSpeedTest.Tests.TestDrainBattery&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1AEC68E2-50F6-42BF-9D44-E0A690C71470::net7.0::NeedForSpeedTest.Tests.TestNitro&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1AEC68E2-50F6-42BF-9D44-E0A690C71470::net7.0::NeedForSpeedTest.Tests.TestTryFinishTrack&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

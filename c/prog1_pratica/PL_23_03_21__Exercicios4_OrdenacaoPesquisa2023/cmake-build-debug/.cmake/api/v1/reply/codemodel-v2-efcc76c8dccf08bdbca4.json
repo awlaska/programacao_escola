@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PL_23_03_21__",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023-Debug-34a5a52e138265ef6b25.json",
+					"name" : "PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023/cmake-build-debug",
+		"source" : "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

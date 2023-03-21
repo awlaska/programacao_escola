@@ -5,24 +5,275 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56028380-5f95-40a5-a625-c1e9d15b76e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercicios/BirdWatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/BirdWatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/BirdWatcherTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/BirdWatcherTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/BirdWatcherTest.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/BirdWatcherTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/BirdWatcherTest.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/CoverletSourceRootsMapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/NUnit3.TestAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/NUnit3.TestAdapter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/nunit.engine.api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/nunit.engine.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/nunit.engine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/nunit.framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/testcentric.engine.metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/testhost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/testhost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/BirdWatcherTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/BirdWatcherTest.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/BirdWatcherTest.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/ref/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/Debug/net7.0/refint/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirdWatcherTest/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/NeedForSpeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/NeedForSpeedTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/NeedForSpeedTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/RaceTrack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/BirdWatcherTest.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/BirdWatcherTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/BirdWatcherTest.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/CoverletSourceRootsMapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/NUnit3.TestAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/NUnit3.TestAdapter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/NeedForSpeedTest.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/NeedForSpeedTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/NeedForSpeedTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/NeedForSpeedTest.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/nunit.engine.api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/nunit.engine.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/nunit.engine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/nunit.framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/testcentric.engine.metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/testhost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/testhost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/ref/NeedForSpeedTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/Debug/net7.0/refint/NeedForSpeedTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/NeedForSpeedTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/NeedForSpeedTest.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/NeedForSpeedTest.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeedForSpeedTest/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/IRemoteControlCar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/RemoteControlCompetition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/RemoteControlCompetitionTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/RemoteControlCompetitionTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/RemoteControlCompetitionTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/RemoteControlCompetitionTest.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/RemoteControlCompetitionTest.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoteControlCompetitionTest/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PL_23_03_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PL_23_03_02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios/bin/Debug/net7.0/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/bin/Debug/net7.0/Exercicios.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios/bin/Debug/net7.0/Exercicios.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/bin/Debug/net7.0/Exercicios.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios/BirdWatcher.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/Exercicios.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/Exercicios.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/Exercicios.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/Exercicios.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/Exercicios.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/ref/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/ref/Exercicios.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/refint/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/obj/Debug/net7.0/refint/Exercicios.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PL_23_03_02.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PL_23_03_02.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PL_23_03_02.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/PL_23_03_02.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c/prog1_pratica/PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6ec09db8e9dfe6092067.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c/prog1_pratica/PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-09T10-23-18-0206.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c/prog1_pratica/PL_23_03_07/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../c/prog1_pratica/PL_23_03_07/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c/prog1_pratica/PL_23_03_07/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../c/prog1_pratica/PL_23_03_07/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c/prog1_pratica/PL_23_03_07/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../c/prog1_pratica/PL_23_03_07/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Exercicios/BirdWatcher.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,24 +286,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\sofia\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\sofia\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\sofia\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\sofia\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\sofia\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\sofia\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Exercicios" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -82,6 +334,10 @@
       <option name="presentableId" value="Default" />
       <updated>1677778456609</updated>
       <workItem from="1677778456867" duration="2743000" />
+      <workItem from="1678703136480" duration="1495000" />
+      <workItem from="1678717888304" duration="3497000" />
+      <workItem from="1678984913112" duration="857000" />
+      <workItem from="1678988481491" duration="986000" />
     </task>
     <servers />
   </component>

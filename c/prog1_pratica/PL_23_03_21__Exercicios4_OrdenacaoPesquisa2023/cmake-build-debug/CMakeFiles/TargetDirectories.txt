@@ -1,0 +1,3 @@
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023/cmake-build-debug/CMakeFiles/PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023.dir
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023/cmake-build-debug/CMakeFiles/rebuild_cache.dir

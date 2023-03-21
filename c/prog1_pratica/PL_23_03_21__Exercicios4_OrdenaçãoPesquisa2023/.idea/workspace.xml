@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97e0997e-ade1-42f0-be80-0053c9de7d03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/BirdWatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/BirdWatcherTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/BirdWatcherTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/BirdWatcherTest.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/BirdWatcherTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/BirdWatcherTest.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/CoverletSourceRootsMapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/NUnit3.TestAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/NUnit3.TestAdapter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/nunit.engine.api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/nunit.engine.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/nunit.engine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/nunit.framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/testcentric.engine.metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/testhost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/testhost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/BirdWatcherTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/BirdWatcherTest.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/BirdWatcherTest.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/BirdWatcherTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/ref/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/Debug/net7.0/refint/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/BirdWatcherTest/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/NeedForSpeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/NeedForSpeedTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/NeedForSpeedTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/RaceTrack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/BirdWatcherTest.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/BirdWatcherTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/BirdWatcherTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/BirdWatcherTest.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/CoverletSourceRootsMapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/NUnit3.TestAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/NUnit3.TestAdapter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/NeedForSpeedTest.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/NeedForSpeedTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/NeedForSpeedTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/NeedForSpeedTest.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/nunit.engine.api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/nunit.engine.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/nunit.engine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/nunit.framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/testcentric.engine.metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/testhost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/testhost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/NeedForSpeedTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/ref/NeedForSpeedTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/Debug/net7.0/refint/NeedForSpeedTest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/NeedForSpeedTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/NeedForSpeedTest.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/NeedForSpeedTest.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/NeedForSpeedTest/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/IRemoteControlCar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/RemoteControlCompetition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/RemoteControlCompetitionTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/RemoteControlCompetitionTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/Debug/net7.0/RemoteControlCompetitionTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/RemoteControlCompetitionTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/RemoteControlCompetitionTest.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/RemoteControlCompetitionTest.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/RemoteControlCompetitionTest/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/.idea/.idea.PL_23_03_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/.idea/.idea.PL_23_03_02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/BirdWatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/Exercicios.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/Exercicios/obj/Debug/net7.0/Exercicios.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/PL_23_03_02.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/PL_23_03_02.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c#/PL_23_03_02/PL_23_03_02.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c#/PL_23_03_02/PL_23_03_02.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/.idea/PL_23_02_28_ficheiros_texto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/reply/cache-v2-ab539047f6d756707ffe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1d97de3c925a9ee1f2cf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-137c6668ce839cc9d321.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/reply/index-2023-02-28T11-44-14-0884.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/reply/target-PL_23_02_28_ficheiros_texto-Debug-06ff04905c9182f0b101.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-fc75b2dbddcba0232c4c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/PL_23_02_28_ficheiros_texto.dir/ex1.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/PL_23_02_28_ficheiros_texto.dir/ex1_23_02_28.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/PL_23_02_28_ficheiros_texto.dir/ex2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/PL_23_02_28_ficheiros_texto.dir/ex2_23_02_28.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/PL_23_02_28_ficheiros_texto.dir/ex3.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/PL_23_02_28_ficheiros_texto.dir/ex4.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/PL_23_02_28_ficheiros_texto.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/curriculum.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/ex1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/ex2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/ex3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/ex4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/ex5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_02_28_ficheiros_texto/numMul7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/.idea/PL_23_03_07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/cache-v2-aee013cbd9ac03309f0f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6ec09db8e9dfe6092067.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ed08c79afca18d7f5de6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-09T10-23-18-0206.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/target-PL_23_03_07-Debug-ecf5ba98a9687c6fd54d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-fc75b2dbddcba0232c4c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/PL_23_03_07.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_23_03_07/ex1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/cache-v2-35a3bb60cfae1e415f48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-aec32b35694f7619cc4d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c9671e8b947cb9ff3803.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/index-2023-02-28T09-51-26-0157.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/target-untitled-Debug-0c817540464516c79fc3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-fc75b2dbddcba0232c4c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_16/ex1.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_16/ex1_23_02_16.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_16/ex2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_16/ex2_23_02_16.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_16/ex3.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_16/ex3_23_02_16.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_28_ficheiros_texto/ex1.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_28_ficheiros_texto/ex1_23_02_28.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_28_ficheiros_texto/ex2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/PL_23_02_28_ficheiros_texto/ex2_23_02_28.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/TP_23_02_17/files.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/TP_23_02_17/idk.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/untitled.dir/TP_23_02_17/impares_ficheiro.c.obj" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectId" id="2NJoDPDQB0WHkGmNrjDndwltvSs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/PL_23_03_21__Exercicios4_OrdenacaoPesquisa2023",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="C/C++ File.main.c">
+    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PL_23_03_21__Exercicios4_OrdenaçãoPesquisa2023" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="main.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.main.c" />
+      <item itemvalue="CMake Application.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.main.c" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97e0997e-ade1-42f0-be80-0053c9de7d03" name="Changes" comment="" />
+      <created>1679391425790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679391425790</updated>
+      <workItem from="1679391427735" duration="185000" />
+      <workItem from="1679391678555" duration="1625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
