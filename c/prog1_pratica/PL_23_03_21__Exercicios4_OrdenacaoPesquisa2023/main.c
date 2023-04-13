@@ -11,7 +11,7 @@ typedef struct Func{
     float salario;
 } FUNC;
 
-// TODO 5
+// DOING 5
 FILE * abrirFicheiro(){
     FILE *fp = NULL;
     fp = fopen("../colaboradores.dat", "r+");
@@ -51,7 +51,7 @@ int receberInformacao(FUNC func[], int *tot){
 }
 
 // DONE 2
-void listarInformacao(FUNC func[], int *tot) {
+void listaInfo(FUNC func[], int *tot) {
     printf("\n%-5s%-25s%-15s%-10s\n", "Nr", "Nome", "NIF", "Sala'rio");
     printf("--------------------------------------------------------");
 
@@ -61,7 +61,7 @@ void listarInformacao(FUNC func[], int *tot) {
 }
 
 // DONE 3 - bubbleSort
-void ordenarNome(FUNC func[], int *tot){
+void ordenaNome(FUNC func[], int *tot){
     int x = 0, i = 0;
     FUNC aux;
 
@@ -77,7 +77,7 @@ void ordenarNome(FUNC func[], int *tot){
 }
 
 // DONE 4 - selectionSort
-void ordenarNIF(FUNC func[], int *tot){
+void ordenaNIF(FUNC func[], int *tot){
     int i=0, j=0, min=0;
     FUNC aux;
 
@@ -95,8 +95,8 @@ void ordenarNIF(FUNC func[], int *tot){
     }
 }
 
-// TODO 6 - insertionSort
-void ordenarSalario(FUNC func[], int *tot){
+// DONE 6 - insertionSort
+void ordenaSalario(FUNC func[], int *tot){
     int i=0, j=0;
     FUNC aux;
     for(i=1;i<*tot;i++) {
@@ -110,7 +110,7 @@ void ordenarSalario(FUNC func[], int *tot){
     }
 }
 
-// TODO 7
+// DONE 7
 int existeNome(FUNC func[], int *tot){
     char nome[200];
     printf("Insira o nome que quer procurar: ");
@@ -126,7 +126,7 @@ int existeNome(FUNC func[], int *tot){
     return 0;
 }
 
-// TODO 8
+// DONE 8
 int existeNIF(FUNC func[], int *tot){
     long int num = 0;
     printf("Insira o NIF que quer procurar: ");
@@ -142,8 +142,8 @@ int existeNIF(FUNC func[], int *tot){
     return 0;
 }
 
-// TODO 9
-int existeNrColab(FUNC func[], int *tot){
+// DONE 9
+int existeNum(FUNC func[], int *tot){
     int num = 0;
     printf("Insira o nu'mero de colaborador que quer procurar: ");
     scanf("%i", &num);
@@ -158,17 +158,33 @@ int existeNrColab(FUNC func[], int *tot){
     return 0;
 }
 
-// TODO 10
-void alterarSalario(FUNC func[], int *tot){
+// DOING 10
+void alteraValores(FUNC func[], int *tot){
     int num;
+    float salario;
+    printf("\nInsira o nu'mero do funciona'rio que quer alterar: ");
+    scanf("%i", &num);
+    fflush(stdin);
+    printf("Insira o valor do sala'rio que quer alterar para: ");
+    scanf("%f", &salario);
+
+    func[num].salario = salario;
 }
 
-// TODO 11
+// DOING 11
 void listarSalarioAcima(FUNC func[], int *tot){
     int base;
+    printf("Insira o valor base do sala'rio: ");
+    scanf("%i", &base);
+
+    for(int i = 0; i < *tot; i++){
+        if(func[i].salario > base){
+            printf("\n%-5d%-25s%-15li%-10.2f\n", func[i].numColab, func[i].nome, func[i].NIF, func[i].salario);
+        }
+    }
 }
 
-// TODO MAIN
+// DOING MAIN
 int main(){
     int tot = 0, opcao = 0, nr = 0;
     struct Func func[200];
@@ -191,14 +207,14 @@ int main(){
 
         switch (opcao) {
             case 1: receberInformacao(func, &tot); break;
-            case 2: listarInformacao(func, &tot); break;
-            case 3: ordenarNome(func, &tot); break;
-            case 4: ordenarNIF(func, &tot); break;
-            case 6: ordenarSalario(func, &tot); break;
+            case 2: listaInfo(func, &tot); break;
+            case 3: ordenaNome(func, &tot); break;
+            case 4: ordenaNIF(func, &tot); break;
+            case 6: ordenaSalario(func, &tot); break;
             case 7: existeNome(func, &tot); break;
             case 8: existeNIF(func, &tot); break;
-            case 9: existeNrColab(func, &tot); break;
-            case 10: alterarSalario(func, &tot); break;
+            case 9: existeNum(func, &tot); break;
+            case 10: alteraValores(func, &tot); break;
             case 11: listarSalarioAcima(func, &tot); break;
             case 0:
                 exit(EXIT_SUCCESS);

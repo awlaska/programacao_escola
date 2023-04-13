@@ -1,0 +1,3 @@
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/trabalho_pratico2122/cmake-build-debug/CMakeFiles/trabalho_pratico2022.dir
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/trabalho_pratico2122/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sofia/Documents/_escola/programacao_escola/c/prog1_pratica/trabalho_pratico2122/cmake-build-debug/CMakeFiles/rebuild_cache.dir

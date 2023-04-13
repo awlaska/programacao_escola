@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\sofia\Documents\_escola\programacao_escola\c\prog1_pratica\trabalho_pratico2022 Select CMakeLists.txt
