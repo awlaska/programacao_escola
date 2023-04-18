@@ -114,7 +114,7 @@ void ordenaSalario(FUNC func[], int *tot){
 int existeNome(FUNC func[], int *tot){
     char nome[200];
     printf("Insira o nome que quer procurar: ");
-    scanf("%[^\n]s", &nome);
+    scanf("%[^\n]s", nome);
 
     for (int i = 0; i < *tot; ++i) {
         if(nome ==  func[i].nome){
