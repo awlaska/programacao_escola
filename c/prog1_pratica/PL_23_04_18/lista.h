@@ -1,5 +1,5 @@
 #ifndef _LISTA
-#define _LISTA
+#define _LISTA4
 
 typedef struct colaborador {
     char nome[64];
@@ -18,5 +18,5 @@ int inserirColaborador(ELEM **iniLista, COL info);
 
 void listarColaboradores(ELEM *iniLista);
 
-#endif //UNTITLED_LISTA_H
+#endif //_LISTA
 

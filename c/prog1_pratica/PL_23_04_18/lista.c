@@ -19,7 +19,7 @@ int inserirColaborador(ELEM **iniLista, COL info){
         *iniLista = novo;
     } else{
         aux = *iniLista;
-        while(aux->seguinte != NULL){
+        while(aux != NULL){
             if(aux->info.numero == info.numero){
                 return 1;
             }
