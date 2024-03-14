@@ -1,0 +1,35 @@
+Coupon Codes for AWS courses below.
+
+Shock App Original:
+https://play.google.com/store/apps/details?id=com.tsgotem.shock
+
+Discord:
+https://discord.gg/kCBGvW6
+
+Githubs:
+github.com/mobiletutorials/shock_app_java
+github.com/mobiletutorials/shock_app_kotlin
+
+How to use App:
+
+
+AWS Courses: (use coupon code: FREEDOM_10) for 10 dollar Sale price
+Kotlin Courses:
+Android AWS Api Gateway Integration With Kotlin and Dagger:
+https://www.udemy.com/android-aws-api-gateway-integration-with-kotlin-and-dagger/?couponCode=FREEDOM_10
+
+Android AWS Lambda Integration With Kotlin and Dagger
+https://www.udemy.com/android-aws-lambda-integration-with-kotlin-and-dagger/?couponCode=FREEDOM_10
+
+Android AWS S3 Integration With Kotlin and Dagger
+https://www.udemy.com/android-aws-s3-integration-with-kotlin-and-dagger/?couponCode=FREEDOM_10
+
+Java Courses:
+Android AWS Api Gateway Integration With Java and Dagger
+https://www.udemy.com/android-aws-api-gateway-integration-with-java-and-dagger/?couponCode=FREEDOM_10
+
+Android AWS Lambda Integration With Java and Dagger
+https://www.udemy.com/android-aws-lambda-integration-with-java-and-dagger/?couponCode=FREEDOM_10
+
+Android AWS S3 Integration With Java and Dagger
+https://www.udemy.com/android-aws-s3-integration-with-java-and-dagger/?couponCode=FREEDOM_10
